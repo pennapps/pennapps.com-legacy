@@ -32,7 +32,7 @@ async.eachOfSeries(links, (list, key, callback1) => {
               fileData[key].push(item);
               callback2();
             } else {
-              console.log("ALERT: failed to scrape: " + links[i]);
+              console.log("ALERT: failed to scrape: " + link);
               callback2();
             }
         });
