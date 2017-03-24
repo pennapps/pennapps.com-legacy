@@ -1,0 +1,14 @@
+[
+  {
+    "name": "First Last", // required
+    "facebook": "https://facebook.com/username", // optional
+    "twitter": "https://twitter.com/username", // optional
+    "linkedin": "https://linkedin.com/in/username", // optional
+    "website": "http://website.com", // optional
+    "image": "https://abc.com/image_url.jpg", // optional, defaults to person icon
+    "events" : {
+      "2011f": "Board", // field to specify Director/Vice-Director/Board
+      "2012s": "Director" // field to specify Director/Vice-Director/Board
+    }
+  }
+]
