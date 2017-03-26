@@ -17,6 +17,44 @@ Exec team: Potluck, Yefim, Trisha, Dan M, Nick M, James F, Joe Z, Ayaka, Amalia,
 2013 Fall
 Director: Brynn
 Exec team: Brynn, Yefim, Nick M, James F, Lewis E, Greg T, Dan M, Simran, Potluck
+2014s was when committees started:
+Director: Brynn
+Sponsorship: Nick, Sean
+Outreach: James, Wissmann
+Marketing: Yefim
+Logistics: Dan, Simran
+Stuff: Ian
+Finance: Lewis
+2014f:
+Directors: Simran, Wissmann
+Sponsorship: Izzy, Rob
+Marketing and Outreach: Dhruv, Pranav
+Logistics: Alex Hu, Derek, Ian, Matt, Sean
+Hardware: Chris Beyer
+Brynn: transition + mentorship
+2015s:
+Directors: Simran, Wissmann
+Sponsorship: Rron Rexha
+Outreach: Dhruv
+Marketing and Design: Pranav, Derek
+Logistics: Alex Hu, Matt
+Hardware: Chris
+Mentorship: Eloisa
+2015f:
+Directors: Pranav, Matt
+Sponsorship: Rron, Helen
+Outreach: Dhruv
+Design: Derek
+Mentorship: Eloisa
+Logistics: Alex Hu, Margaret, Kenneth
+Hardware: Aasif
+2016s: 
+Directors: Pranav, Matt
+Sponsorship: Helen, Jacob, Dhruv
+Outreach: Devesh
+Design: Derek
+Mentorship: Eloisa
+Logistics: Alex Hu, Margaret
 
 Links:
 Alexey Komissarouk
