@@ -1,8 +1,8 @@
 var ogs = require('open-graph-scraper');
 var jsonfile = require('jsonfile');
 var async = require('async');
-var links = jsonfile.readFileSync('./scraper/linksList.json');
-var fileName = "./scraper/links.json";
+var links = jsonfile.readFileSync('./data/linksList.json');
+var fileName = "./data/links.json";
 var currentLinks = jsonfile.readFileSync(fileName);
 
 var keys = Object.keys(links);

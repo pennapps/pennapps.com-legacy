@@ -46,11 +46,11 @@ Sponsorship: Rron, Helen
 Outreach: Dhruv
 Design: Derek
 Mentorship: Eloisa
-Logistics: Alex Hu, Margaret, Kenneth
+Logistics: Alex Hu, Margaret, Kenneth Ye
 Hardware: Aasif
 2016s: 
 Directors: Pranav, Matt
-Sponsorship: Helen, Jacob, Dhruv
+Sponsorship: Helen, Jacob, Dhruv A
 Outreach: Devesh
 Design: Derek
 Mentorship: Eloisa

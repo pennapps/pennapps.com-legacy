@@ -1,24 +1,238 @@
-.App {
+body {
+  font-family: system-font, -webkit-system-font, -apple-system-font, ".SFNSDisplay-Regular", HelveticaNeue, LucidaGrande;
+  color: #A6A6A6; 
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+p {
+  letter-spacing: 0.04em;
+  line-height: 1.3em;
+  color: #333333;
+}
+
+.landing {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.logo {
+  height: 200px;
+  margin-top: 20px;
+  opacity: 0.9;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.splash {
+  position: relative;
+  height: 85vh;
+  padding-bottom: 5vh;
 }
 
-.App-intro {
-  font-size: large;
+.splash:after {
+  content: "";
+  background: #E6E6E6;
+  position: absolute;
+  bottom: 0;
+  width: 60%;
+  height: 2px;
+  margin: 0 auto;
+  left: 20%;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.timeline-wrapper {
+  z-index: 10;
+  position: relative;
+  color: #333333;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.timeline-wrapper:after {
+    content: "";
+    background: #E6E6E6;
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    height: 2px;
+    margin: 0 auto;
+    left: 20%;
+}
+
+.scrollable{
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0px 0px 20px 0px;
+  margin-bottom: -20px;
+}
+
+table {
+  border-spacing: 20px 5px;
+}
+
+td{
+  vertical-align: top;
+  background: #E6E6E6;
+  padding: 10px 0px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #E6E6E6;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+}
+  td:hover {
+    box-shadow: 0px 0px 30px #E6E6E6;
+    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+  }
+
+.scroll-hide{
+  overflow: hidden;
+}
+
+.date{
+    font-size: 15px;
+    text-align: right;
+    padding: 1px 2px;
+    width: 100px;
+    height: 20px;
+    margin: 10px 0px 0px 0px;
+}
+
+.event-wrapper{
+  float: right;
+  text-align: right;
+  margin-left: 110px;
+  width: 150px;
+  margin-top: -22px;
+  margin-right: 40px;
+}
+.event{
+  color: #333333;
+  font-size: 20px;
+  display: inline-block;
+}
+.eventnum{
+  color: #333333;
+  font-size: 20px;
+}
+
+.description{
+  color: #333333;
+  font-size: 0.75em;
+  font-family: "Open Sans";
+  font-weight: 400;
+  display: inline-block;
+}
+
+.button{
+	background-color: #333333;
+	color: #E6E6E6;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: 1.2em;
+  font-weight: 500;
+	padding: 15px 45px 10px 45px;
+	margin: 10px 10px;
+	display: inline-block;
+  box-shadow: 0px 0px 10px #333333;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+}
+  .button:hover {
+    box-shadow: 0px 0px 30px #333333;
+    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+    cursor: pointer;
+  }
+
+.history {
+  max-width: 30vw;
+  margin: 0vh 10vw;
+}
+
+.history-event {
+  display: inline-block;
+  text-align: left;
+}
+
+.history-event:after {
+  content: "";
+  background: #E6E6E6;
+  position: relative;
+  bottom: 0;
+  width: 60%;
+  height: 2px;
+  margin: 0 auto;
+  left: 20%;
+  display: inline-block;
+}
+
+.history h3 {
+  text-align: center;
+}
+
+.preview {
+  font-size: 1.2em;
+  width: 90%;
+  text-align: right;
+  background: #E6E6E6;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0px 0px 5px #E6E6E6;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+}
+  .preview:hover {
+    box-shadow: 0px 0px 5px #444444;
+    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+  }
+.preview a {
+  font-size: 0.6em;
+  text-decoration: none;
+  color: #444444;
+}
+.preview img {
+  max-width: 100%;
+  filter: grayscale(100%);
+  display: block;
+  margin: 0 auto;
+}
+.preview .site {
+  position: absolute;
+  background: #efefef;
+  opacity: 0.5;
+  margin: 1% 1%;
+  z-index: 10;
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+}
+
+.preview h3 {
+  font-size: 1.2em;
+}
+.preview p {
+  text-align: left;
+}
+.rel {
+  position: relative !important;
+  margin: auto !important;
+}
+.preview .desc {
+  display: inline-block;
+  text-align: left;
+  font-size: 1.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-height: 1em;        /* fallback */
+  max-height: 3em;       /* fallback */
 }
