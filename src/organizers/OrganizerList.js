@@ -57,7 +57,7 @@ class OrganizerList extends Component {
 
   render() {
     return (
-      <div>
+      <div className="organizers">
         {this.generateOrganizerComps()}
       </div>
     );

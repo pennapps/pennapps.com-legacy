@@ -73,7 +73,6 @@ table {
 
 td{
   vertical-align: top;
-  background: #E6E6E6;
   padding: 10px 0px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px #E6E6E6;
@@ -146,9 +145,27 @@ td{
     cursor: pointer;
   }
 
+
+.content{
+  position: relative;
+  color: #444444;
+  font-weight: lighter;
+  font-size: 0.9em;
+  display: table;
+  margin: 30px 0px;
+ }
+
+.organizers {
+  width: 95%;
+  max-width: 50vw;
+  position: absolute;
+  display: inline;
+}
+
 .history {
   max-width: 30vw;
   margin: 0vh 10vw;
+  float: left;
 }
 
 .history-event {
@@ -176,12 +193,11 @@ td{
   font-size: 1.2em;
   width: 90%;
   text-align: right;
-  background: #E6E6E6;
   padding: 10px;
   margin: 10px 0px;
   border-radius: 5px;
   display: inline-block;
-  box-shadow: 0px 0px 5px #E6E6E6;
+  box-shadow: 0px 0px 5px #ABABAB;
   transition: box-shadow 0.5s;
   -webkit-transition: box-shadow 0.5s;
 }
@@ -216,9 +232,11 @@ td{
 
 .preview h3 {
   font-size: 1.2em;
+  text-align: right;
 }
 .preview p {
   text-align: left;
+  font-weight: 500;
 }
 .rel {
   position: relative !important;
@@ -233,6 +251,6 @@ td{
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3; /* number of lines to show */
-  line-height: 1em;        /* fallback */
-  max-height: 3em;       /* fallback */
+  line-height: 1.2em;        /* fallback */
+  max-height: 3.6em;       /* fallback */
 }

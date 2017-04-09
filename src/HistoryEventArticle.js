@@ -39,7 +39,7 @@ class HistoryEventArticle extends Component {
   render() {
     return (
       <div className="preview">
-        <a href={this.props.url} target="_blank">
+        <a href={this.props.url} target="_blank" rel="nofollow">
           {this.getLinkOrImageHeader()}
           {this.getImage()}
           <h3>{this.props.title}</h3>

@@ -8,8 +8,11 @@ import OrganizerList from './organizers/OrganizerList';
 const MOST_RECENT_EVENT = '2017s';
 
 class App extends Component {
-  state = {
-    currentlyViewedEvent: MOST_RECENT_EVENT,
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentlyViewedEvent: MOST_RECENT_EVENT,    
+    }
   }
 
   changeCurrentlyViewedEvent(event) {
@@ -17,7 +20,6 @@ class App extends Component {
   }
 
   render() {
-    console.log('current state of the app is ', this.state.currentlyViewedEvent);
     return (
       <div className="landing">
         <div className="splash">
@@ -31,14 +33,13 @@ class App extends Component {
             <a><div className="button">Enter Site</div></a>
           </div>
         </div>
-
-        <History
-          eventViewCallback={this.changeCurrentlyViewedEvent.bind(this)}
-          event={this.state.currentlyViewedEvent}
-        />
-
-        <OrganizerList event={this.state.currentlyViewedEvent} />
-
+        <div className="content">
+          <History
+            eventViewCallback={this.changeCurrentlyViewedEvent.bind(this)}
+            event={this.state.currentlyViewedEvent}
+          />
+          <OrganizerList event={this.state.currentlyViewedEvent} />
+        </div>
       </div>
     );
   }

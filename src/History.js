@@ -41,6 +41,22 @@ class History extends Component {
     return (
       <div className="history">
         <h2>History</h2>
+        <div className="event-nav">
+          <table>
+            <tbody>
+              <tr>
+                {Object.keys(events).map((eventName, i) => {
+                  let event = events[eventName];
+                  return (
+                    <td key={eventName} className="event-nav-name">
+                      <a>{event.full}</a>
+                    </td>
+                  );
+                })}
+              </tr>
+            </tbody>
+          </table>
+        </div>
         {Object.keys(events).map((eventName, i) => {
           return (
             <HistoryEvent

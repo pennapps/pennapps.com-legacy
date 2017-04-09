@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import TimelineEvent from './TimelineEvent'
-
-var events = require('../data/events.json')
+import events from '../data/events.json';
 
 class Timeline extends Component {
   render() {
@@ -13,7 +12,7 @@ class Timeline extends Component {
               <table className="content-list">
                 <tbody>
                   <tr>
-                    {Object.keys(events).map(function(eventName, i){
+                    {Object.keys(events).reverse().map((eventName, i) => {
                         let event = events[eventName];
                         return <TimelineEvent
                           key={eventName}
