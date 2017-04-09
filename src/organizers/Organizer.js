@@ -10,22 +10,22 @@ class Organizer extends Component {
 
   static propTypes = {
     name: React.PropTypes.string.isRequired,
-    photo: React.PropTypes.string,
+    events: React.PropTypes.object,
+    image: React.PropTypes.string,
     linkedin: React.PropTypes.string,
     facebook: React.PropTypes.string,
     twitter: React.PropTypes.string,
     github: React.PropTypes.string,
-  }
-
-  constructor(props) {
-
+    website: React.PropTypes.string,
   }
 
   render() {
     return (
       <div className={'organizer'}>
-
+        
       </div>
     );
   }
 }
+
+export default Organizer;

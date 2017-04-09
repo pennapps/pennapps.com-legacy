@@ -3,13 +3,14 @@ import logo from './logo.png';
 import './App.css';
 import History from './History'
 import Timeline from './Timeline';
+import OrganizerList from './organizers/OrganizerList';
 
 class App extends Component {
   render() {
     return (
       <div className="landing">
         <div className="splash">
-          
+
           <Timeline />
 
           <img src={logo} alt="logo" className="logo"></img>
@@ -21,6 +22,8 @@ class App extends Component {
         </div>
 
         <History />
+
+        <OrganizerList event={''} />
 
       </div>
     );
