@@ -1,0 +1,33 @@
+.organizer {
+  font-weight: 500;
+  color: #333333;
+  display: inline-block;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #ababab;
+  margin: 20px;
+  border-radius: 5%;
+  min-width: 150px;
+}
+
+.organizer a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+.organizer img {
+  border-radius: 50%;
+  max-width: 100px;
+  display: inline-block;
+  filter: grayscale(100%);
+}
+
+.organizer span {
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+.desc {
+  font-weight: 700;
+}
