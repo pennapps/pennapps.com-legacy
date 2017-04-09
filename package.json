@@ -10,7 +10,9 @@
     "jsonfile": "^2.4.0",
     "open-graph-scraper": "^2.4.2",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-addons-pure-render-mixin": "^15.5.2",
+    "react-dom": "^15.4.2",
+    "react-visibility-sensor": "^3.8.0"
   },
   "scripts": {
     "start": "react-scripts start",
