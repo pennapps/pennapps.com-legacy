@@ -9,6 +9,12 @@ class History extends Component {
     return (
       <div className="history">
         <h2>History</h2>
+        <div className="event-nav">
+          {Object.keys(events).map(function(eventName, i){
+              let event = events[eventName];
+              return <td className="event-nav-name"><a>{event.full}</a></td>;
+          })}
+        </div>
         {Object.keys(events).map(function(eventName, i){
           return (
             <HistoryEvent

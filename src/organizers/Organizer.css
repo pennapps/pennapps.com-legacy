@@ -3,10 +3,12 @@
   color: #333333;
   display: inline-block;
   padding: 10px;
-  box-shadow: 0px 0px 10px #ababab;
-  margin: 20px;
+  margin: 2px;
   border-radius: 5%;
   min-width: 150px;
+  max-width: 15%;
+  font-size: 0.7em;
+  vertical-align: top;
 }
 
 .organizer a {
@@ -18,9 +20,10 @@
 
 .organizer img {
   border-radius: 50%;
-  max-width: 100px;
+  width: 80%;
   display: inline-block;
   filter: grayscale(100%);
+  box-shadow: 0px 0px 10px #ababab;
 }
 
 .organizer span {
@@ -28,6 +31,6 @@
   font-size: 1.2em;
 }
 
-.desc {
+.organizer .desc {
   font-weight: 700;
 }

@@ -23,7 +23,7 @@ class App extends Component {
 
         <div className="content">
           <History />
-          <OrganizerList event={''} />
+          <OrganizerList event={'2015f'} />
         </div>
 
       </div>
