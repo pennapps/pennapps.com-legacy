@@ -11,12 +11,14 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentlyViewedEvent: MOST_RECENT_EVENT,    
+      currentlyViewedEvent: MOST_RECENT_EVENT,
     }
   }
 
   changeCurrentlyViewedEvent(event) {
-    this.setState({ currentlyViewedEvent: event });
+    if (event) {
+      this.setState({ currentlyViewedEvent: event });
+    }
   }
 
   render() {
