@@ -6,6 +6,9 @@ import organizers from '../../data/organizers.json'
 const DIRECTOR = 'Director'
 const BOARD = 'Board';
 
+var isDirector = (person, event) => person.events[event].includes(DIRECTOR)
+var isBoard = (person, event) => person.events[event] === BOARD;
+
 class OrganizerList extends Component {
   static propTypes = {
     event: React.PropTypes.string.isRequired,
@@ -39,12 +42,26 @@ class OrganizerList extends Component {
     });
 
     // Sort by role
-    relevantOrganizers.sort((a, b) => {
-      if (a === DIRECTOR && b === BOARD) {
+    let e = this.state.event;
+    relevantOrganizers = relevantOrganizers.sort((a, b) => {
+      if (isDirector(a, e) && isBoard(b, e)) {
+        return -1;
+      }
+      if (isBoard(a, e) && isDirector(b, e)) {
         return 1;
       }
-      if (a === BOARD && b === DIRECTOR) {
+      // Other role case
+      if (
+        (isDirector(a, e)|| isBoard(a, e)) &&
+        (!isDirector(b, e) && !isBoard(b, e))
+      ) {
         return -1;
+      }
+      if (
+        (isDirector(b, e) || isBoard(b, e)) &&
+        (!isDirector(a, e) && !isBoard(a, e))
+      ) {
+        return 1;
       }
       return 0;
     });

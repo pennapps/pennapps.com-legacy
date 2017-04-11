@@ -1,11 +1,11 @@
 [
   {
-    "name": "Alexey Komissarouk", 
-    "facebook": "https://www.facebook.com/alexeymk", 
-    "linkedin": "https://www.linkedin.com/in/alexeymk/", 
-    "website": "http://alexeymk.com", 
+    "name": "Alexey Komissarouk",
+    "facebook": "https://www.facebook.com/alexeymk",
+    "linkedin": "https://www.linkedin.com/in/alexeymk/",
+    "website": "http://alexeymk.com",
     "image": "/images/alexey.jpg",
-    "events" : {
+    "events": {
       "2009f": "Director",
       "2010f": "Director",
       "2011s": "Director",
@@ -13,76 +13,76 @@
     }
   },
   {
-    "name": "Kristin Fergis", 
-    "events" : {
+    "name": "Kristin Fergis",
+    "events": {
       "2009f": "Fund Raising",
       "2010f": "Fund Raising"
     }
   },
   {
-    "name": "Justin Broglie", 
-    "events" : {
+    "name": "Justin Broglie",
+    "events": {
       "2009f": "Website",
       "2010f": "Website"
     }
   },
   {
-    "name": "Zach Meister", 
-    "facebook": "https://www.facebook.com/meisterz", 
+    "name": "Zach Meister",
+    "facebook": "https://www.facebook.com/meisterz",
     "linkedin": "https://www.linkedin.com/in/zachary-meister-69867636/",
     "image": "/images/zach.jpg",
-    "events" : {
+    "events": {
       "2009f": "Operations",
       "2010f": "Operations",
       "2011f": "Board"
     }
   },
   {
-    "name": "Ellen Yusti", 
-    "facebook": "https://www.facebook.com/ellenyusti", 
-    "linkedin": "https://www.linkedin.com/in/ellen-yusti-69b60019/", 
+    "name": "Ellen Yusti",
+    "facebook": "https://www.facebook.com/ellenyusti",
+    "linkedin": "https://www.linkedin.com/in/ellen-yusti-69b60019/",
     "image": "/images/ellen.jpg",
-    "events" : {
+    "events": {
       "2009f": "Operations",
       "2010f": "Operations",
       "2011f": "Board"
     }
   },
   {
-    "name": "Lu Chen", 
-    "events" : {
+    "name": "Lu Chen",
+    "events": {
       "2009f": "Organizer",
       "2010f": "Organizer"
     }
   },
   {
-    "name": "Jim Grandpre", 
-    "events" : {
+    "name": "Jim Grandpre",
+    "events": {
       "2009f": "Organizer",
       "2010f": "Organizer"
     }
   },
   {
-    "name": "Dan Getelman", 
-    "events" : {
+    "name": "Dan Getelman",
+    "events": {
       "2009f": "Organizer",
       "2010f": "Organizer"
     }
   },
   {
-    "name": "Matt Croop", 
-    "events" : {
+    "name": "Matt Croop",
+    "events": {
       "2009f": "Organizer",
       "2010f": "Organizer"
     }
   },
   {
-    "name": "Jonathan Leung", 
-    "facebook": "https://www.facebook.com/jonleung137", 
+    "name": "Jonathan Leung",
+    "facebook": "https://www.facebook.com/jonleung137",
     "website": "http://jonl.org",
     "linkedin": "https://www.linkedin.com/in/jonathanjleung/",
     "image": "/images/jon.jpg",
-    "events" : {
+    "events": {
       "2011s": "Organizer",
       "2011f": "Board",
       "2012s": "Board",
@@ -91,12 +91,12 @@
     }
   },
   {
-    "name": "Potluck Mittal", 
-    "facebook": "https://www.facebook.com/callmepotluck", 
+    "name": "Potluck Mittal",
+    "facebook": "https://www.facebook.com/callmepotluck",
     "twitter": "https://twitter.com/callmepotluck",
-    "linkedin": "https://www.linkedin.com/in/potluck/", 
+    "linkedin": "https://www.linkedin.com/in/potluck/",
     "image": "/images/potluck.jpg",
-    "events" : {
+    "events": {
       "2011s": "Organizer",
       "2011f": "Board",
       "2012s": "Director",
@@ -106,11 +106,11 @@
     }
   },
   {
-    "name": "Amalia Hawkins", 
-    "facebook": "https://www.facebook.com/amahawk", 
-    "linkedin": "https://www.linkedin.com/in/hawka/", 
+    "name": "Amalia Hawkins",
+    "facebook": "https://www.facebook.com/amahawk",
+    "linkedin": "https://www.linkedin.com/in/hawka/",
     "image": "/images/amalia.jpg",
-    "events" : {
+    "events": {
       "2011s": "Organizer",
       "2011f": "Board",
       "2012s": "Board",
@@ -119,12 +119,12 @@
     }
   },
   {
-    "name": "Ayaka Nonaka", 
-    "facebook": "https://www.facebook.com/nonaka.ayaka", 
+    "name": "Ayaka Nonaka",
+    "facebook": "https://www.facebook.com/nonaka.ayaka",
     "twitter": "https://twitter.com/ayanonagon",
-    "linkedin": "https://www.linkedin.com/in/ayakanonaka/", 
+    "linkedin": "https://www.linkedin.com/in/ayakanonaka/",
     "image": "/images/ayaka.jpg",
-    "events" : {
+    "events": {
       "2011s": "Organizer",
       "2011f": "Board",
       "2012s": "Board",
@@ -133,32 +133,32 @@
     }
   },
   {
-    "name": "Trisha Kothari", 
-    "facebook": "https://www.facebook.com/trisha.kothari", 
-    "linkedin": "https://www.linkedin.com/in/trishakothari/", 
+    "name": "Trisha Kothari",
+    "facebook": "https://www.facebook.com/trisha.kothari",
+    "linkedin": "https://www.linkedin.com/in/trishakothari/",
     "image": "/images/trisha.jpeg",
-    "events" : {
+    "events": {
       "2012s": "Board",
       "2012f": "Board",
       "2013s": "Board"
     }
   },
   {
-    "name": "Joseph Zhong", 
-    "facebook": "https://www.facebook.com/joseph.zhong", 
-    "linkedin": "https://www.linkedin.com/in/joseph-zhong-a918b531/", 
+    "name": "Joseph Zhong",
+    "facebook": "https://www.facebook.com/joseph.zhong",
+    "linkedin": "https://www.linkedin.com/in/joseph-zhong-a918b531/",
     "image": "/images/joseph.jpg",
-    "events" : {
+    "events": {
       "2012f": "Board",
       "2013s": "Board"
     }
   },
   {
-    "name": "James Feuereisen", 
-    "facebook": "https://www.facebook.com/jfeuereisen", 
-    "linkedin": "https://www.linkedin.com/in/jamesfeuereisen/", 
+    "name": "James Feuereisen",
+    "facebook": "https://www.facebook.com/jfeuereisen",
+    "linkedin": "https://www.linkedin.com/in/jamesfeuereisen/",
     "image": "/images/james.jpg",
-    "events" : {
+    "events": {
       "2012f": "Board",
       "2013s": "Board",
       "2013f": "Board",
@@ -166,74 +166,74 @@
     }
   },
   {
-    "name": "Yefim Vedernikoff", 
-    "facebook": "https://www.facebook.com/yefimvedernikoff", 
-    "linkedin": "https://www.linkedin.com/in/yefimv/", 
+    "name": "Yefim Vedernikoff",
+    "facebook": "https://www.facebook.com/yefimvedernikoff",
+    "linkedin": "https://www.linkedin.com/in/yefimv/",
     "image": "/images/yefim.jpg",
-    "events" : {
+    "events": {
       "2013s": "Board",
       "2013f": "Board",
       "2014s": "Board"
     }
   },
   {
-    "name": "Dan Moroz", 
-    "facebook": "https://www.facebook.com/moroz.daniel", 
-    "linkedin": "https://www.linkedin.com/in/danielmoroz/", 
+    "name": "Dan Moroz",
+    "facebook": "https://www.facebook.com/moroz.daniel",
+    "linkedin": "https://www.linkedin.com/in/danielmoroz/",
     "image": "/images/dan.jpg",
-    "events" : {
+    "events": {
       "2013s": "Board",
       "2013f": "Board",
       "2014s": "Board"
     }
   },
   {
-    "name": "Nick Meyer", 
-    "facebook": "https://www.facebook.com/NickEMeyer", 
-    "linkedin": "https://www.linkedin.com/in/nicholas-meyer-bb775547/", 
+    "name": "Nick Meyer",
+    "facebook": "https://www.facebook.com/NickEMeyer",
+    "linkedin": "https://www.linkedin.com/in/nicholas-meyer-bb775547/",
     "image": "/images/nick.jpg",
-    "events" : {
+    "events": {
       "2013s": "Board",
       "2013f": "Board",
       "2014s": "Board"
     }
   },
   {
-    "name": "Brynn Claypoole", 
-    "facebook": "https://www.facebook.com/bclaypoole", 
-    "linkedin": "https://www.linkedin.com/in/bclaypoole", 
+    "name": "Brynn Claypoole",
+    "facebook": "https://www.facebook.com/bclaypoole",
+    "linkedin": "https://www.linkedin.com/in/bclaypoole",
     "image": "/images/brynn.jpg",
-    "events" : {
+    "events": {
       "2013f": "Director",
       "2014s": "Director",
       "2014f": "Board"
     }
   },
   {
-    "name": "Lewis Ellis", 
-    "facebook": "https://www.facebook.com/TacticalPenguin", 
-    "linkedin": "https://www.linkedin.com/in/lewisjellis/", 
+    "name": "Lewis Ellis",
+    "facebook": "https://www.facebook.com/TacticalPenguin",
+    "linkedin": "https://www.linkedin.com/in/lewisjellis/",
     "image": "/images/lewis.jpg",
-    "events" : {
+    "events": {
       "2013f": "Board",
       "2014s": "Board"
     }
   },
   {
-    "name": "Greg Terrono", 
-    "facebook": "https://www.facebook.com/terrono", 
-    "linkedin": "https://www.linkedin.com/in/terrono/", 
+    "name": "Greg Terrono",
+    "facebook": "https://www.facebook.com/terrono",
+    "linkedin": "https://www.linkedin.com/in/terrono/",
     "image": "/images/greg.jpg",
-    "events" : {
+    "events": {
       "2013f": "Board"
     }
   },
   {
-    "name": "Simran Ahluwalia", 
-    "facebook": "https://www.facebook.com/simrana", 
-    "linkedin": "https://www.linkedin.com/in/simrana/", 
+    "name": "Simran Ahluwalia",
+    "facebook": "https://www.facebook.com/simrana",
+    "linkedin": "https://www.linkedin.com/in/simrana/",
     "image": "/images/simran.jpg",
-    "events" : {
+    "events": {
       "2013f": "Board",
       "2014s": "Board",
       "2014f": "Director",
@@ -241,75 +241,75 @@
     }
   },
   {
-    "name": "Sean Lynch", 
-    "facebook": "https://www.facebook.com/sean.lynch.90813", 
-    "linkedin": "https://www.linkedin.com/in/sean-lynch-45898688/", 
+    "name": "Sean Lynch",
+    "facebook": "https://www.facebook.com/sean.lynch.90813",
+    "linkedin": "https://www.linkedin.com/in/sean-lynch-45898688/",
     "image": "/images/sean.jpg",
-    "events" : {
+    "events": {
       "2014s": "Board",
       "2014f": "Board"
     }
   },
   {
-    "name": "Alex Wissmann", 
-    "facebook": "https://www.facebook.com/Wissmania", 
+    "name": "Alex Wissmann",
+    "facebook": "https://www.facebook.com/Wissmania",
     "twitter": "https://twitter.com/awissmann",
-    "linkedin": "https://www.linkedin.com/in/alex-wissmann-36346b63/", 
+    "linkedin": "https://www.linkedin.com/in/alex-wissmann-36346b63/",
     "image": "/images/wissmann.jpg",
-    "events" : {
+    "events": {
       "2014s": "Board",
       "2014f": "Director",
       "2015s": "Director"
     }
   },
   {
-    "name": "Ian Sibner", 
-    "facebook": "https://www.facebook.com/sibnerian", 
-    "linkedin": "https://www.linkedin.com/in/sibnerian/", 
+    "name": "Ian Sibner",
+    "facebook": "https://www.facebook.com/sibnerian",
+    "linkedin": "https://www.linkedin.com/in/sibnerian/",
     "image": "/images/ian.jpg",
-    "events" : {
+    "events": {
       "2014s": "Board",
       "2014f": "Board"
     }
   },
   {
-    "name": "Izzy Park", 
-    "facebook": "https://www.facebook.com/isabelle.park", 
-    "linkedin": "https://www.linkedin.com/in/isabellepark/", 
+    "name": "Izzy Park",
+    "facebook": "https://www.facebook.com/isabelle.park",
+    "linkedin": "https://www.linkedin.com/in/isabellepark/",
     "image": "/images/izzy.jpg",
-    "events" : {
+    "events": {
       "2014f": "Board"
     }
   },
   {
-    "name": "Robert Lawrence", 
-    "facebook": "https://www.facebook.com/roblaw", 
-    "linkedin": "https://www.linkedin.com/in/rplawrence/",  
+    "name": "Robert Lawrence",
+    "facebook": "https://www.facebook.com/roblaw",
+    "linkedin": "https://www.linkedin.com/in/rplawrence/",
     "image": "/images/rob.jpg",
-    "events" : {
+    "events": {
       "2014f": "Board"
     }
   },
   {
-    "name": "Dhruv Baid", 
-    "facebook": "https://www.facebook.com/dhruv.baid.7", 
-    "linkedin": "https://www.linkedin.com/in/dhruv-baid-5b2b09121/",   
+    "name": "Dhruv Baid",
+    "facebook": "https://www.facebook.com/dhruv.baid.7",
+    "linkedin": "https://www.linkedin.com/in/dhruv-baid-5b2b09121/",
     "image": "/images/baid.jpg",
-    "events" : {
+    "events": {
       "2014f": "Board",
       "2015s": "Board",
       "2015f": "Board"
     }
   },
   {
-    "name": "Pranav Vishnu", 
-    "facebook": "https://www.facebook.com/pvrnav", 
+    "name": "Pranav Vishnu",
+    "facebook": "https://www.facebook.com/pvrnav",
     "twitter": "https://twitter.com/pvrnav",
     "github": "https://github.com/pvrnav",
     "website": "http://pvrnav.com",
-    "linkedin": "https://www.linkedin.com/in/pranavvishnu/",   
+    "linkedin": "https://www.linkedin.com/in/pranavvishnu/",
     "image": "/images/pranav.jpg",
-    "events" : {
+    "events": {
       "2014f": "Board",
       "2015s": "Board",
       "2015f": "Director",
@@ -317,11 +317,11 @@
     }
   },
   {
-    "name": "Alex Hu", 
-    "facebook": "https://www.facebook.com/poke.poke.poke.poke", 
-    "linkedin": "https://www.linkedin.com/in/gearsgrinding/",   
+    "name": "Alex Hu",
+    "facebook": "https://www.facebook.com/poke.poke.poke.poke",
+    "linkedin": "https://www.linkedin.com/in/gearsgrinding/",
     "image": "/images/hu.jpg",
-    "events" : {
+    "events": {
       "2014f": "Board",
       "2015s": "Board",
       "2015f": "Board",
@@ -329,14 +329,14 @@
     }
   },
   {
-    "name": "Derek Jobst", 
-    "facebook": "https://www.facebook.com/djobst", 
+    "name": "Derek Jobst",
+    "facebook": "https://www.facebook.com/djobst",
     "website": "https://derekjobst.com",
     "github": "https://github.com/derekjobst",
     "twitter": "https://twitter.com/derekjobst",
-    "linkedin": "https://www.linkedin.com/in/derekjobst/",   
+    "linkedin": "https://www.linkedin.com/in/derekjobst/",
     "image": "/images/derek.jpg",
-    "events" : {
+    "events": {
       "2014f": "Board",
       "2015s": "Board",
       "2015f": "Board",
@@ -346,9 +346,9 @@
   {
     "name": "Matthew Howard",
     "facebook": "https://www.facebook.com/matthoward4",
-    "linkedin": "https://www.linkedin.com/in/matthewshoward/",  
+    "linkedin": "https://www.linkedin.com/in/matthewshoward/",
     "image": "/images/matt.jpg",
-    "events" : {
+    "events": {
       "2014f": "Board",
       "2015s": "Board",
       "2015f": "Vice-Director",
@@ -360,7 +360,7 @@
     "facebook": "https://www.facebook.com/beyer.chris",
     "linkedin": "https://www.linkedin.com/in/cbeyer/",
     "image": "/images/chris.jpg",
-    "events" : {
+    "events": {
       "2014f": "Board",
       "2015s": "Board"
     }
@@ -373,7 +373,7 @@
     "github": "https://github.com/adidahiya",
     "twitter": "https://twitter.com/adi_dahiya",
     "image": "/images/adi.jpg",
-    "events" : {
+    "events": {
       "2013f": "Logo Design"
     }
   },
@@ -382,7 +382,7 @@
     "facebook": "https://www.facebook.com/rron.rexha.1",
     "linkedin": "https://www.linkedin.com/in/rron-rexha-94721788/",
     "image": "/images/rron.jpg",
-    "events" : {
+    "events": {
       "2015s": "Board",
       "2015f": "Board"
     }
@@ -392,7 +392,7 @@
     "facebook": "https://www.facebook.com/eloisa.b.jones",
     "linkedin": "https://www.linkedin.com/in/eloisabjones/",
     "image": "/images/eloisa.jpg",
-    "events" : {
+    "events": {
       "2015s": "Board",
       "2015f": "Board"
     }
@@ -402,7 +402,7 @@
     "facebook": "https://www.facebook.com/helen.qu1",
     "linkedin": "https://www.linkedin.com/in/helen-qu/",
     "image": "/images/helen.jpg",
-    "events" : {
+    "events": {
       "2015f": "Board",
       "2016s": "Board"
     }
@@ -412,7 +412,7 @@
     "facebook": "https://www.facebook.com/margaret.li1",
     "linkedin": "https://www.linkedin.com/in/margaretli95/",
     "image": "/images/margaret.jpg",
-    "events" : {
+    "events": {
       "2015f": "Board",
       "2016s": "Board"
     }
@@ -422,7 +422,7 @@
     "facebook": "https://www.facebook.com/thekennethye",
     "linkedin": "https://www.linkedin.com/in/kenneth-ye-8900a4b0/",
     "image": "/images/kenneth.jpg",
-    "events" : {
+    "events": {
       "2015f": "Board"
     }
   },
@@ -432,7 +432,7 @@
     "website": "http://www.aasifversi.com",
     "linkedin": "https://www.linkedin.com/in/aasif-versi-a3aa07a2/",
     "image": "/images/aasif.jpg",
-    "events" : {
+    "events": {
       "2015f": "Board",
       "2016s": "Board"
     }
@@ -444,7 +444,7 @@
     "website": "http://jacobkahn.me",
     "linkedin": "https://www.linkedin.com/in/jacobdavidkahn/",
     "image": "/images/jacob.jpg",
-    "events" : {
+    "events": {
       "2016s": "Board",
       "2016f": "Vice-Director",
       "2017s": "Vice-Director"
@@ -456,7 +456,7 @@
     "github": "https://github.com/dhruvag",
     "linkedin": "https://www.linkedin.com/in/dhruvag/",
     "image": "/images/agarwal.jpg",
-    "events" : {
+    "events": {
       "2016s": "Board",
       "2016f": "Board"
     }
@@ -468,7 +468,7 @@
     "website": "http://www.seas.upenn.edu/~deveshd/",
     "linkedin": "https://www.linkedin.com/in/deveshdayal/",
     "image": "/images/devesh.jpg",
-    "events" : {
+    "events": {
       "2016s": "Board",
       "2016f": "Board"
     }
@@ -478,7 +478,7 @@
     "facebook": "https://www.facebook.com/ssriggs",
     "linkedin": "https://www.linkedin.com/in/samriggs/",
     "image": "/images/sam.jpg",
-    "events" : {
+    "events": {
       "2013f": "Photography",
       "2014s": "Photography",
       "2014f": "Photography",
