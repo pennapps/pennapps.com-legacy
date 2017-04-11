@@ -14,7 +14,7 @@
 .organizer a {
   text-decoration: none;
   color: #333333;
-  font-size: 1.5em;
+  font-size: 1.8em;
   padding: 5px;
 }
 
@@ -28,7 +28,7 @@
 
 .organizer span {
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .organizer .desc {

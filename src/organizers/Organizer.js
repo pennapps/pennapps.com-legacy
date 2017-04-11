@@ -22,13 +22,13 @@ class Organizer extends Component {
   state = {
     // true on mobile
     showDesc: false,
-    currEvent: null
+    currEvent: this.props.event
   }
 
   componentWillReceiveProps(props) {
     this.setState({
        showDesc: props.showDesc,
-       currEvent: props.currEvent
+       currEvent: props.event
      });
   }
 
@@ -90,7 +90,7 @@ class Organizer extends Component {
       desc += ")";
     }
 
-    if (this.state.showDesc || !this.state.currEvent) {
+    if (this.state.showDesc) {
       return <span className="desc">{desc}</span>;
     } else {
       return <span className="desc">{this.props.events[this.state.currEvent]}</span>;

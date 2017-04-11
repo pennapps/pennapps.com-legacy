@@ -27,9 +27,8 @@ class App extends Component {
         <div className="splash">
 
           <Timeline />
-
-          <img src={logo} alt="logo" className="logo"></img>
           <div className="head-text">
+            <img src={logo} alt="logo" className="logo"></img>
             <h1>PennApps</h1>
             <h2>Fall 2017</h2>
             <a><div className="button">Enter Site</div></a>

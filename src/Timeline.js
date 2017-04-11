@@ -14,12 +14,14 @@ class Timeline extends Component {
                   <tr>
                     {Object.keys(events).reverse().map((eventName, i) => {
                         let event = events[eventName];
-                        return <TimelineEvent
-                          key={eventName}
-                          date={event.full}
-                          num={event.roman}
-                          description={event.short}
-                        />;
+                        return (
+                          <TimelineEvent
+                            key={eventName}
+                            eventName={eventName}
+                            date={event.full}
+                            num={event.roman}
+                            description={event.short}
+                          />);
                     })}
                   </tr>
                 </tbody>

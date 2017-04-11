@@ -68,7 +68,7 @@ class OrganizerList extends Component {
 
     // Generate comps
     return relevantOrganizers.map((organizer, i) => {
-      return <Organizer key={i} {...organizer} />;
+      return <Organizer event={this.state.event} key={i} {...organizer} />;
     });
   }
 

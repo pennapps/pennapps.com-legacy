@@ -42,11 +42,13 @@ p {
 }
 
 .timeline-wrapper {
-  z-index: 10;
-  position: relative;
+  z-index: 100;
+  position: fixed;
   color: #333333;
   padding-bottom: 20px;
   padding-top: 20px;
+  width: 100vw;
+  background: white;
 }
 
 .timeline-wrapper:after {
@@ -54,10 +56,10 @@ p {
     background: #E6E6E6;
     position: absolute;
     bottom: 0;
-    width: 60%;
+    width: 80%;
     height: 2px;
     margin: 0 auto;
-    left: 20%;
+    left: 10%;
 }
 
 .scrollable{
@@ -69,6 +71,8 @@ p {
 
 table {
   border-spacing: 20px 5px;
+  /*position: fixed;
+  top: 5px;*/
 }
 
 td{
@@ -84,9 +88,16 @@ td{
     transition: box-shadow 0.5s;
     -webkit-transition: box-shadow 0.5s;
   }
+  table .active {
+    font-weight: 700;
+  }
 
 .scroll-hide{
   overflow: hidden;
+}
+
+.head-text {
+  padding-top: 175px;
 }
 
 .date{
@@ -156,10 +167,10 @@ td{
  }
 
 .organizers {
-  width: 95%;
   max-width: 50vw;
-  position: absolute;
+  position: fixed;
   display: inline;
+  top: 200px;
 }
 
 .history {

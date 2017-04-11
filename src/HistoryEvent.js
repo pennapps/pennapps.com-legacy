@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import VisibilitySensor from 'react-visibility-sensor'
 import HistoryEventArticle from './HistoryEventArticle';
 import links from '../data/links.json';
+import { Element } from 'react-scroll';
 
 const PARTIAL_VIEW_RATIO = 3;
 
@@ -29,7 +30,9 @@ class HistoryEvent extends Component {
         offset={{top: window.innerHeight / PARTIAL_VIEW_RATIO}}>
 
         <div className="history-event" key={this.props.eventName}>
-          <h3>{this.props.fullName}</h3>
+          <Element name={this.props.eventName + "-header"}>
+            <h3>{this.props.fullName}</h3>
+          </Element>
           {/*  Set to generated HTML string */}
           <p dangerouslySetInnerHTML={{__html: this.props.longHTML}}></p>
           {links[this.props.eventName].map((link, i) => {
