@@ -4,15 +4,21 @@ import './App.css';
 import History from './History'
 import Timeline from './Timeline';
 import OrganizerList from './organizers/OrganizerList';
+import VisibilitySensor from 'react-visibility-sensor'
+import PureRenderMixin from 'react-addons-pure-render-mixin';
 
-const MOST_RECENT_EVENT = '2017s';
+const TIMELINE_OFFSET = 200;
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentlyViewedEvent: MOST_RECENT_EVENT,
+      currentlyViewedEvent: '',
+      showOrganizers: false,
     }
+
+    this.shouldComponentUpdate =
+      PureRenderMixin.shouldComponentUpdate.bind(this);
   }
 
   changeCurrentlyViewedEvent(event) {
@@ -21,11 +27,14 @@ class App extends Component {
     }
   }
 
+  splashVisibleCallack(event) {
+    this.setState({showOrganizers: !event});
+  }
+
   render() {
     return (
       <div className="landing">
         <div className="splash">
-
           <Timeline />
           <div className="head-text">
             <img src={logo} alt="logo" className="logo"></img>
@@ -35,11 +44,18 @@ class App extends Component {
           </div>
         </div>
         <div className="content">
+          <VisibilitySensor
+            onChange={this.splashVisibleCallack.bind(this)}
+            scrollCheck={true}
+            offset={{top: TIMELINE_OFFSET}}
+          />
           <History
             eventViewCallback={this.changeCurrentlyViewedEvent.bind(this)}
             event={this.state.currentlyViewedEvent}
           />
-          <OrganizerList event={this.state.currentlyViewedEvent} />
+          <OrganizerList
+            showAny={this.state.showOrganizers}
+            event={this.state.currentlyViewedEvent} />
         </div>
       </div>
     );

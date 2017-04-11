@@ -13,6 +13,7 @@ class OrganizerList extends Component {
   static propTypes = {
     event: React.PropTypes.string.isRequired,
     showAll: React.PropTypes.bool, // true on mobile
+    showAny: React.PropTypes.bool.isRequired,
   }
 
   state = {
@@ -63,6 +64,12 @@ class OrganizerList extends Component {
       ) {
         return 1;
       }
+      if (a.events[e] === 'Director' && b.events[e] === 'Vice-Director') {
+        return -1;
+      }
+      if (b.events[e] === 'Director' && a.events[e] === 'Vice-Director') {
+        return 1;
+      }
       return 0;
     });
 
@@ -73,9 +80,13 @@ class OrganizerList extends Component {
   }
 
   render() {
+    let organizerComps = null;
+    if (this.props.showAny && this.props.event !== 'none') {
+      organizerComps = this.generateOrganizerComps()
+    }
     return (
       <div className="organizers">
-        {this.generateOrganizerComps()}
+        {organizerComps}
       </div>
     );
   }
