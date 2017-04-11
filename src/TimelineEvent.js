@@ -17,7 +17,7 @@ class TimelineEvent extends Component {
           <Link 
             to={this.props.eventName + "-header"}
             activeClass="active"
-            offset={-200}
+            offset={-175}
             spy={true}
             smooth={true}>
             <div className="event-wrapper">
