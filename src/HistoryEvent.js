@@ -12,6 +12,7 @@ class HistoryEvent extends Component {
     fullName: React.PropTypes.string.isRequired,
     longHTML: React.PropTypes.string.isRequired,
     visibilityChangeCallback: React.PropTypes.func.isRequired,
+    link: React.PropTypes.string.isRequired
   }
 
   onVisibilityChange(value) {
@@ -31,7 +32,7 @@ class HistoryEvent extends Component {
 
         <Element name={this.props.eventName + "-header"}>
           <div className="history-event" key={this.props.eventName}>
-              <h3>{this.props.fullName}</h3>
+            <a href={this.props.link}><h3>{this.props.fullName}</h3></a>
             {/*  Set to generated HTML string */}
             <p dangerouslySetInnerHTML={{__html: this.props.longHTML}}></p>
             {links[this.props.eventName].map((link, i) => {

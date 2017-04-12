@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
-import HistoryEvent from './HistoryEvent'
-import events from '../data/events.json';
+import HistoryEvent from './HistoryEvent';
 
 class History extends Component {
   static propTypes = {
     eventViewCallback: React.PropTypes.func.isRequired,
     event: React.PropTypes.string.isRequired,
+    events: React.PropTypes.object.isRequired,
   }
 
   constructor(props) {
     super(props);
 
     let eventVisibilities = {}
-    Object.keys(events).forEach(e => eventVisibilities[e] = false);
+    Object.keys(this.props.events).forEach(e => eventVisibilities[e] = false);
     this.state = eventVisibilities;
 
     this.shouldComponentUpdate =
@@ -41,13 +41,14 @@ class History extends Component {
     return (
       <div className="history" id="history">
         <h2>History</h2>
-        {Object.keys(events).map((eventName, i) => {
+        {Object.keys(this.props.events).map((eventName, i) => {
           return (
             <HistoryEvent
               key={eventName}
               eventName={eventName}
-              fullName={events[eventName].full}
-              longHTML={events[eventName].longHTML}
+              fullName={this.props.events[eventName].full}
+              longHTML={this.props.events[eventName].longHTML}
+              link={this.props.events[eventName].link}
               visibilityChangeCallback={
                 this.visibilityChangeCallback.bind(this)
               }

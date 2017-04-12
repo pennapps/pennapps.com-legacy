@@ -19,6 +19,7 @@ class TimelineEvent extends Component {
             activeClass="active"
             offset={-175}
             spy={true}
+            duration={1000}
             smooth={true}>
             <div className="event-wrapper">
               <span className="event">PENNAPPS</span>

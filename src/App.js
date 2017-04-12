@@ -6,6 +6,7 @@ import Timeline from './Timeline';
 import OrganizerList from './organizers/OrganizerList';
 import VisibilitySensor from 'react-visibility-sensor'
 import PureRenderMixin from 'react-addons-pure-render-mixin';
+import events from '../data/events.json';
 
 const TIMELINE_OFFSET = 200;
 
@@ -49,13 +50,15 @@ class App extends Component {
             scrollCheck={true}
             offset={{top: TIMELINE_OFFSET}}
           />
+          <OrganizerList
+            showAny={this.state.showOrganizers}
+            event={this.state.currentlyViewedEvent}
+            events={events} />
           <History
             eventViewCallback={this.changeCurrentlyViewedEvent.bind(this)}
             event={this.state.currentlyViewedEvent}
+            events={events}
           />
-          <OrganizerList
-            showAny={this.state.showOrganizers}
-            event={this.state.currentlyViewedEvent} />
         </div>
       </div>
     );
