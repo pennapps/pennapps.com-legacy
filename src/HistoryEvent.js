@@ -29,20 +29,21 @@ class HistoryEvent extends Component {
         scrollCheck={true}
         delayedCall={true}
         offset={{top: window.innerHeight / PARTIAL_VIEW_RATIO}}>
-
-        <Element name={this.props.eventName + "-header"}>
-          <div className="history-event" key={this.props.eventName}>
-            <a href={this.props.link}><h3>{this.props.fullName}</h3></a>
-            {/*  Set to generated HTML string */}
-            <p dangerouslySetInnerHTML={{__html: this.props.longHTML}}></p>
-            {links[this.props.eventName].map((link, i) => {
-              return <HistoryEventArticle
-                key={this.props.eventName + '_article_' + i}
-                {...link}
-                />;
-            })}
-          </div>
-        </Element>
+        <div className="history-event-wrapper">
+          <Element name={this.props.eventName + "-header"}>
+            <div className="history-event" key={this.props.eventName}>
+              <a href={this.props.link}><h3>{this.props.fullName}</h3></a>
+              {/*  Set to generated HTML string */}
+              <p dangerouslySetInnerHTML={{__html: this.props.longHTML}}></p>
+              {links[this.props.eventName].map((link, i) => {
+                return <HistoryEventArticle
+                  key={this.props.eventName + '_article_' + i}
+                  {...link}
+                  />;
+              })}
+            </div>
+          </Element>
+        </div>
       </VisibilitySensor>
     );
   }

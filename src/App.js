@@ -7,6 +7,7 @@ import OrganizerList from './organizers/OrganizerList';
 import VisibilitySensor from 'react-visibility-sensor'
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import events from '../data/events.json';
+import currentEventInfo from '../data/currentEvent.json';
 
 const TIMELINE_OFFSET = 200;
 
@@ -40,8 +41,10 @@ class App extends Component {
           <div className="head-text">
             <img src={logo} alt="logo" className="logo"></img>
             <h1>PennApps</h1>
-            <h2>Fall 2017</h2>
-            <a><div className="button">Enter Site</div></a>
+            <h2>{currentEventInfo.season} {currentEventInfo.year}</h2>
+            <a href={currentEventInfo.siteLink}>
+              <div className="button">Enter Site</div>
+            </a>
           </div>
         </div>
         <div className="content">

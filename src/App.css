@@ -1,6 +1,6 @@
 body {
   font-family: system-font, -webkit-system-font, -apple-system-font, ".SFNSDisplay-Regular", HelveticaNeue, LucidaGrande;
-  color: #A6A6A6; 
+  color: #A6A6A6;
 }
 
 h1 {
@@ -195,6 +195,22 @@ td{
 
 .history-event p {
   text-align: left;
+}
+
+.history-event-wrapper {
+  padding-top: 12px;
+}
+
+.history-event:after {
+  content: "";
+  background: #E6E6E6;
+  position: relative;
+  bottom: 0;
+  width: 60%;
+  height: 2px;
+  margin: 0 auto;
+  left: 20%;
+  display: inline-block;
 }
 
 .history h3 {

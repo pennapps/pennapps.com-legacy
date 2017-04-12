@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import HistoryEvent from './HistoryEvent';
 
+
 class History extends Component {
   static propTypes = {
     eventViewCallback: React.PropTypes.func.isRequired,

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 
+const LINK_OFFSET = -175;
+
 class TimelineEvent extends Component {
   static propTypes = {
     date: React.PropTypes.string.isRequired,
@@ -14,13 +16,14 @@ class TimelineEvent extends Component {
         <td>
           <div className="timeline-bubble"></div>
           <div className="date">{this.props.date}</div>
-          <Link 
+          <Link
             to={this.props.eventName + "-header"}
             activeClass="active"
-            offset={-175}
+            offset={LINK_OFFSET}
             spy={true}
             duration={1000}
-            smooth={true}>
+            smooth={true}
+            isDynamic={true}>
             <div className="event-wrapper">
               <span className="event">PENNAPPS</span>
               <span className="eventnum"> {this.props.num}</span>
