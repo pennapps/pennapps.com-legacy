@@ -50,28 +50,28 @@
   },
   "2013f": {
     "roman": "VIII",
-    "link": "",
+    "link": "#",
     "full": "Fall 2013",
     "short": "Over 1100 students made this the first college hackathon over 1000.",
     "longHTML": "With around 1,100 students, we nearly tripled in size this time around. Sponsors including Venmo, Microsoft, Amazon Web Services, and Google Cloud Platform allowed the best hackers to travel to Penn from around the world, including Switzerland (ETH Zurich), Hong Kong (HKUST), Israel (IDC Herzliya), and Singapore (NUS). We took over Penn Engineering and the sixth floor of Van Pelt library for hacking, and the Palestra on Sunday for an expo of the more than 200 incredible hacks. First place and $10,000 went to <a href='http://pennapps.challengepost.com/submissions/17189-swap/'>Swap</a> and you can find the rest of the outstanding hacks <a href='http://pennapps.challengepost.com/submissions/'>here</a>."
   },
   "2013s": {
     "roman": "VII",
-    "link": "",
+    "link": "#",
     "full": "Spring 2013",
     "short": "Five-hundred students from around the world attended the largest PennApps yet.",
     "longHTML": "With nearly 500 students, PennApps continued to hold its title as the top college hackathon. With Venmo, Dropbox, Microsoft, Andreessen Horowitz, and many other companies sponsoring, PennApps Spring 2013 was able to attract students from universities as far off as California (Stanford, Berkeley, etc.), Canada (Waterloo, Toronto) and even Switzerland (ETH Zurich), becoming the first PennApps to go international. First place went to <a href='https://www.hackerleague.org/hackathons/pennapps-spring-2013/hacks/inventory'>Inventory</a> and the rest of the winners can be found <a href='http://2013s.pennapps.com/prizes/'>here</a>."
   },
   "2012f": {
     "roman": "VI",
-    "link": "",
+    "link": "#",
     "full": "Fall 2012",
     "short": "Over 300 students attended, more than double previous events.",
     "longHTML": "Over 300 people attended, more than double that of previous events. Sponsored by Venmo, Bain Capital Ventures, KPCB, and many more, PennApps 2012 Fall managed to churn out a future member of the YC '13 class, <a href='http://www.paytango.com/'>PayTango</a>. Despite fierce competition, <a href='http://www.pennapps.jocelinlee.com/#&amp;panel1-1'>Java Auto Music</a> won first place with the <a href='http://blog.pennapps.com/post/31797542186/pennapps-winners'>rest of the winners</a> being just as impressive."
   },
   "2012s": {
     "roman": "V",
-    "link": "",
+    "link": "#",
     "full": "Spring 2012",
     "short": "Forty-two teams competed in this event focused on 'Simplicity'.",
     "longHTML": "Sponsored by Venmo, Coursekit (now Lore), Tumblr, Yahoo, and nineteen other companies, PennApps Spring 2012 centered around the theme of simplicity. <a href='https://www.youtube.com/watch?v=m33PqhdDl0M&amp;feature=plcp&amp;context=C38b45d6UDOEgsToPDskIpt5vtYUlhubu8UT-6LMdj'>ScratchTable</a> won the grand prize: the team used a contact mike and their coding skills to turn any surface into a DJ turntable. Second place was <a href='http://grassroutes.us'>Grassroutes</a>, a hack that allowed anyone to put a widget on any website, giving users one-click access to their congressional representatives. All of the other winners can be found <a href='http://pennapps12s.tumblr.com/post/16264210294/congratulations-to-the-winners'>here</a>."
@@ -85,21 +85,21 @@
   },
   "2011s": {
     "roman": "III",
-    "link": "",
+    "link": "#",
     "full": "Spring 2011",
     "short": "Known as 'PennApps Mobile', with 23 teams.",
     "longHTML": "Also known as PennApps mobile, this hackathon centered around the creation of mobile apps. 23 teams pulled together their hacks on platforms including Android, iPhone, Mobile Web, Windows Phone, and through texting."
   },
   "2010f": {
     "roman": "II",
-    "link": "",
+    "link": "#",
     "full": "Fall 2010",
     "short": "The first 48-hour PennApps",
     "longHTML": "This was the first 48 hour PennApps; though only 10 teams made it through, we think they did an amazing job! One standout app was <a href='http://www.septanow.org/'>SEPTA Now,</a> which tracks SEPTA regional trains around the city so users can know exactly where trains are and if they're running late."
   },
   "2009f": {
     "roman": "I",
-    "link": "",
+    "link": "#",
     "full": "Fall 2009",
     "short": "The original PennApps, with 17 teams",
     "longHTML": "Cohosted by Penn's Women in Computer Science (WICS), the very first PennApps spanned a week! (Don't worry, participants were allowed to sleep.) 17 teams participated, and laid the foundation for all PennApps to come."

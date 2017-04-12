@@ -8,6 +8,10 @@ h1 {
   font-size: 2em;
 }
 
+h2 {
+  font-weight: 400;
+}
+
 p {
   letter-spacing: 0.04em;
   line-height: 1.3em;
@@ -16,7 +20,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #333333;
+  color: #afafaf;
   cursor: pointer;
 }
 
@@ -33,7 +37,7 @@ a {
 .splash {
   position: relative;
   height: 85vh;
-  padding-bottom: 5vh;
+  padding: 5vh;
 }
 
 .splash:after {
@@ -41,20 +45,26 @@ a {
   background: #E6E6E6;
   position: absolute;
   bottom: 0;
-  width: 60%;
+  width: 80%;
   height: 2px;
   margin: 0 auto;
-  left: 20%;
+  left: 10%;
+}
+
+.head-text {
+  padding-top: 28vh;
+  vertical-align: middle;
 }
 
 .timeline-wrapper {
   z-index: 100;
   position: fixed;
+  top: 0px;
+  left: 0px;
   color: #333333;
-  padding-bottom: 20px;
-  padding-top: 20px;
   width: 100vw;
   background: white;
+  white-space: nowrap;
 }
 
 .timeline-wrapper:after {
@@ -69,41 +79,38 @@ a {
 }
 
 .scrollable{
-  overflow-x: auto;
+  overflow-x: scroll;
   overflow-y: hidden;
   padding: 0px 0px 20px 0px;
-  margin-bottom: -20px;
+  position: relative;
+}
+.scrollable::-webkit-scrollbar { 
+    display: none; 
 }
 
-table {
-  border-spacing: 20px 5px;
-  /*position: fixed;
-  top: 5px;*/
-}
-
-td{
+.timeline-event {
+  display: inline-block;
+  white-space: normal;
+  margin: 20px 10px;
   vertical-align: top;
+  height: 100px;
   padding: 10px 0px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px #E6E6E6;
   transition: box-shadow 0.5s;
   -webkit-transition: box-shadow 0.5s;
 }
-  td:hover {
+  .timeline-event:hover {
     box-shadow: 0px 0px 30px #E6E6E6;
     transition: box-shadow 0.5s;
     -webkit-transition: box-shadow 0.5s;
   }
-  table .active {
+  .timeline-event .active {
     font-weight: 700;
   }
 
 .scroll-hide{
   overflow: hidden;
-}
-
-.head-text {
-  padding-top: 175px;
 }
 
 .date{
@@ -201,30 +208,35 @@ td{
   padding-top: 12px;
 }
 
-.history-event:after {
-  content: "";
-  background: #E6E6E6;
-  position: relative;
-  bottom: 0;
-  width: 60%;
-  height: 2px;
-  margin: 0 auto;
-  left: 20%;
-  display: inline-block;
-}
-
 .history h3 {
   text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  background: #333333;
+  color: white;
+  box-shadow: 0px 0px 10px #333333;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+}
+  .history h3:hover {
+    box-shadow: 0px 0px 30px #333333;
+    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+  }
+.history h4 {
+  text-align: right;
   background: #E6E6E6;
+  font-size: 1.2em;
   padding: 5px;
   border-radius: 5px;
 }
 
 .preview {
   font-size: 1.2em;
-  width: 90%;
+  overflow: hidden;
+  width: 100%;
   text-align: right;
-  padding: 10px;
+  padding: 0px;
   margin: 10px auto;
   border-radius: 5px;
   display: inline-block;
@@ -233,7 +245,7 @@ td{
   -webkit-transition: box-shadow 0.5s;
 }
   .preview:hover {
-    box-shadow: 0px 0px 5px #444444;
+    box-shadow: 0px 0px 10px #444444;
     transition: box-shadow 0.5s;
     -webkit-transition: box-shadow 0.5s;
   }
@@ -248,6 +260,7 @@ td{
   display: block;
   margin: 0 auto;
   background: #E6E6E6;
+  border-radius: 5px 5px 0 0;
 }
 .preview .site {
   position: absolute;
@@ -262,10 +275,13 @@ td{
   display: block;
 }
 
-.preview h3 {
-  font-size: 1.2em;
+.preview h4 {
+  font-size: 1.4em;
   text-align: right;
+  color: #333333;
   opacity: 0.5;
+  margin: 0px;
+  border-radius: 0px;
 }
 .preview p {
   text-align: left;
@@ -279,13 +295,14 @@ td{
   display: inline-block;
   text-align: left;
   font-size: 1.2em;
+  padding: 0.5em;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-line-clamp: 4; /* number of lines to show */
   line-height: 1.2em;        /* fallback */
-  max-height: 3.6em;       /* fallback */
+  max-height: 4.2em;       /* fallback */
 }
 
 @media screen and (max-width: 610px) {

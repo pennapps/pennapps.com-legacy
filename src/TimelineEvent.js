@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-scroll';
+import  { Link, Element } from 'react-scroll';
 
 const LINK_OFFSET = -175;
 
@@ -13,10 +13,10 @@ class TimelineEvent extends Component {
 
   render() {
     return (
-        <td>
-          <div className="timeline-bubble"></div>
+        <Element id={this.props.eventName + "-" + "timeline"} className="timeline-event">
           <div className="date">{this.props.date}</div>
           <Link
+            id={this.props.eventName + "-" + "timeline-contents"}
             to={this.props.eventName + "-header"}
             activeClass="active"
             offset={LINK_OFFSET}
@@ -30,7 +30,7 @@ class TimelineEvent extends Component {
               <span className="description">{this.props.description}</span>
             </div>
           </Link>
-        </td>
+        </Element>
     )
   }
 }

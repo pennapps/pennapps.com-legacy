@@ -58,6 +58,7 @@ class App extends Component {
             event={this.state.currentlyViewedEvent}
             events={events} />
           <History
+            noScroll={false} // set to true for mobile
             eventViewCallback={this.changeCurrentlyViewedEvent.bind(this)}
             event={this.state.currentlyViewedEvent}
             events={events}
