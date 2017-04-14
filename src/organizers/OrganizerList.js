@@ -6,7 +6,7 @@ import organizers from '../../data/organizers.json'
 const DIRECTOR = 'Director'
 const BOARD = 'Board';
 
-var isDirector = (person, event) => person.events[event].includes(DIRECTOR)
+var isDirector = (person, event) => person.events[event].includes(DIRECTOR);
 var isBoard = (person, event) => person.events[event] === BOARD;
 
 class OrganizerList extends Component {
@@ -20,7 +20,7 @@ class OrganizerList extends Component {
     // Which event currently being viewed
     event: this.props.event,
     // Should be true on mobile
-    showAll: false
+    showAll: this.props.showAll
   }
 
   componentWillReceiveProps(props) {
@@ -42,40 +42,52 @@ class OrganizerList extends Component {
       }
     });
 
-    // Sort by role
-    let e = this.state.event;
-    relevantOrganizers = relevantOrganizers.sort((a, b) => {
-      if (isDirector(a, e) && isBoard(b, e)) {
-        return -1;
-      }
-      if (isBoard(a, e) && isDirector(b, e)) {
-        return 1;
-      }
-      // Other role case
-      if (
-        (isDirector(a, e)|| isBoard(a, e)) &&
-        (!isDirector(b, e) && !isBoard(b, e))
-      ) {
-        return -1;
-      }
-      if (
-        (isDirector(b, e) || isBoard(b, e)) &&
-        (!isDirector(a, e) && !isBoard(a, e))
-      ) {
-        return 1;
-      }
-      if (a.events[e] === 'Director' && b.events[e] === 'Vice-Director') {
-        return -1;
-      }
-      if (b.events[e] === 'Director' && a.events[e] === 'Vice-Director') {
-        return 1;
-      }
-      return 0;
-    });
+    // on mobile, sort descending year, then alphabetical
+    if (this.state.showAll) {
+      relevantOrganizers = relevantOrganizers.sort((a,b) => {
+        return (a.name > b.name) ? 1 : -1;
+      }).sort((a,b) => {
+        var aEvents = Object.keys(a.events);
+        var bEvents = Object.keys(b.events);
+        return parseInt(aEvents[aEvents.length - 1].substring(0,4)) > parseInt(bEvents[bEvents.length - 1].substring(0,4)) ? -1 : 1;
+      });
+    // on larger devices, only show current event sorted by position
+    } else {
+      // Sort by role
+      var e = this.state.event;
+      relevantOrganizers = relevantOrganizers.sort((a, b) => {
+        if (isDirector(a, e) && isBoard(b, e)) {
+          return -1;
+        }
+        if (isBoard(a, e) && isDirector(b, e)) {
+          return 1;
+        }
+        // Other role case
+        if (
+          (isDirector(a, e)|| isBoard(a, e)) &&
+          (!isDirector(b, e) && !isBoard(b, e))
+        ) {
+          return -1;
+        }
+        if (
+          (isDirector(b, e) || isBoard(b, e)) &&
+          (!isDirector(a, e) && !isBoard(a, e))
+        ) {
+          return 1;
+        }
+        if (a.events[e] === 'Director' && b.events[e] === 'Vice-Director') {
+          return -1;
+        }
+        if (b.events[e] === 'Director' && a.events[e] === 'Vice-Director') {
+          return 1;
+        }
+        return 0;
+      });
+    }
 
     // Generate comps
     return relevantOrganizers.map((organizer, i) => {
-      return <Organizer event={this.state.event} key={i} {...organizer} />;
+      return <Organizer event={this.state.event} showDesc={this.state.showAll} key={i} {...organizer} />;
     });
   }
 
@@ -87,6 +99,7 @@ class OrganizerList extends Component {
       header = <h2>{this.props.events[this.props.event].full}</h2>;
     }
     if (this.props.showAll) {
+      organizerComps = this.generateOrganizerComps()
       header = <h2>Organizers</h2>;
     }
     return (
