@@ -21,7 +21,7 @@ class Organizer extends Component {
 
   state = {
     // true on mobile
-    showDesc: false,
+    showDesc: this.props.showDesc,
     currEvent: this.props.event
   }
 

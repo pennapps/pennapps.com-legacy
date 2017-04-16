@@ -10,6 +10,7 @@ import events from '../data/events.json';
 import currentEventInfo from '../data/currentEvent.json';
 
 const TIMELINE_OFFSET = 200;
+const MOBILE_WIDTH = 610;
 
 class App extends Component {
   constructor(props) {
@@ -17,11 +18,26 @@ class App extends Component {
     this.state = {
       currentlyViewedEvent: '',
       showOrganizers: false,
+      mobile: window.innerWidth <= MOBILE_WIDTH,
       lockScrollListeners: false,
     }
 
     this.shouldComponentUpdate =
       PureRenderMixin.shouldComponentUpdate.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateIsMobile();
+    window.addEventListener('resize', this.updateIsMobile.bind(this));
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateIsMobile.bind(this));
+  }
+
+  updateIsMobile () {
+    this.setState({mobile: window.innerWidth <= MOBILE_WIDTH});
+    console.log(this.state.mobile);
   }
 
   changeCurrentlyViewedEvent(event, callback) {
@@ -65,10 +81,11 @@ class App extends Component {
         <div className="content">
           <OrganizerList
             showAny={this.state.showOrganizers}
+            showAll={this.state.mobile}
             event={this.state.currentlyViewedEvent}
             events={events} />
           <History
-            noScroll={false} // set to true for mobile
+            noScroll={this.state.mobile} // set to true for mobile
             eventViewCallback={this.changeCurrentlyViewedEvent.bind(this)}
             event={this.state.currentlyViewedEvent}
             events={events}
