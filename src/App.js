@@ -51,8 +51,8 @@ class App extends Component {
             <img src={logo} alt="logo" className="logo"></img>
             <h1>PennApps</h1>
             <h2>{currentEventInfo.season} {currentEventInfo.year}</h2>
-            <a href={currentEventInfo.siteLink}>
-              <div className="button">Enter Site</div>
+            <a href={currentEventInfo.siteLink || '#'}>
+              <div className="button">{currentEventInfo.hasOwnProperty('siteLink') ? 'Enter Site' : 'Coming Soon'}</div>
             </a>
           </div>
         </div>
