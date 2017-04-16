@@ -4,9 +4,8 @@ import events from '../data/events.json';
 import { Events, Element, scroller } from 'react-scroll';
 
 const LINK_OFFSET = -175;
-const SCROLL_DURATION = 5000;
+const SCROLL_DURATION = 2000;
 const SCROLL_DELAY = 1000;
-
 
 class Timeline extends Component {
   static propTypes = {

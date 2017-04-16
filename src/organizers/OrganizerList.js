@@ -6,8 +6,8 @@ import organizers from '../../data/organizers.json'
 const DIRECTOR = 'Director'
 const BOARD = 'Board';
 
-var isDirector = (person, event) => person.events[event].includes(DIRECTOR)
-var isBoard = (person, event) => person.events[event] === BOARD;
+let isDirector = (person, event) => person.events[event].includes(DIRECTOR)
+let isBoard = (person, event) => person.events[event] === BOARD;
 
 class OrganizerList extends Component {
   static propTypes = {
