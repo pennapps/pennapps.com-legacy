@@ -50,11 +50,11 @@ class Timeline extends Component {
 
     // scroll to section user is currently watching, or idle animate scroll on landing page
     if (el2[0] && el2[0].offsetLeft > this.state.curr) {
-      this.setState({curr: this.state.curr + (el2[0].offsetLeft + 350 - this.state.curr)/1000});
-      el.scrollLeft += (el2[0].offsetLeft + 350 - this.state.curr)/1000;
+      this.setState({curr: this.state.curr + (el2[0].offsetLeft + 350 - this.state.curr)/400});
+      el.scrollLeft += (el2[0].offsetLeft + 350 - this.state.curr)/400;
     } else if (el2[0]) {
-      this.setState({curr: this.state.curr + (el2[0].offsetLeft - 350 - this.state.curr)/1000});
-      el.scrollLeft += (el2[0].offsetLeft - 350 - this.state.curr)/1000;
+      this.setState({curr: this.state.curr + (el2[0].offsetLeft - 350 - this.state.curr)/400});
+      el.scrollLeft += (el2[0].offsetLeft - 350 - this.state.curr)/400;
     } else if (this.state.animating) {
       this.setState({curr: this.state.curr + 1});
       el.scrollLeft += 1;
