@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import VisibilitySensor from 'react-visibility-sensor'
 import HistoryEventArticle from './HistoryEventArticle';
 import links from '../data/links.json';
 import { Element } from 'react-scroll';
+import Waypoint from 'react-waypoint';
 
-const PARTIAL_VIEW_RATIO = 3;
+const PARTIAL_VIEW_RATIO = 6;
+const TIMELINE_SIZE = 200;
 
 class HistoryEvent extends Component {
   static propTypes = {
@@ -15,20 +16,19 @@ class HistoryEvent extends Component {
     link: React.PropTypes.string.isRequired
   }
 
-  onVisibilityChange(value) {
+  onViewActionCallback(action) {
     this.props.visibilityChangeCallback({
-      [this.props.eventName]: value
+      [this.props.eventName]: action
     });
   }
 
+
   render() {
     return (
-      <VisibilitySensor
-        onChange={this.onVisibilityChange.bind(this)}
-        partialVisibility={true}
-        scrollCheck={true}
-        delayedCall={true}
-        offset={{top: window.innerHeight / PARTIAL_VIEW_RATIO}}>
+      <Waypoint
+        onEnter={this.onViewActionCallback.bind(this, true)}
+        onLeave={this.onViewActionCallback.bind(this, false)}
+        bottomOffset={TIMELINE_SIZE + window.innerHeight / PARTIAL_VIEW_RATIO}>
         <div className="history-event-wrapper">
           <Element name={this.props.eventName + "-header"}>
             <div className="history-event" key={this.props.eventName}>
@@ -44,7 +44,7 @@ class HistoryEvent extends Component {
             </div>
           </Element>
         </div>
-      </VisibilitySensor>
+      </Waypoint>
     );
   }
 }

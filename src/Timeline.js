@@ -1,15 +1,37 @@
 import React, { Component } from 'react';
 import TimelineEvent from './TimelineEvent'
 import events from '../data/events.json';
-import { Element } from 'react-scroll';
+import { Events, Element, scroller } from 'react-scroll';
+
+const LINK_OFFSET = -175;
+const SCROLL_DURATION = 2000;
+const SCROLL_DELAY = 1000;
 
 class Timeline extends Component {
+  static propTypes = {
+    event: React.PropTypes.string.isRequired,
+    lockHistoryScrollListener: React.PropTypes.func.isRequired,
+  }
+
   constructor(props) {
     super(props);
     this.state = {
       animating: true,
       curr : 0
     }
+
+    Events.scrollEvent.register(
+      'begin',
+      props.lockHistoryScrollListener.bind(true)
+    );
+    Events.scrollEvent.register(
+      'end',
+      props.lockHistoryScrollListener.bind(false)
+    );
+  }
+
+  componentWillReceiveProps(newProps) {
+    this.setState({curr: Object.keys(events).indexOf(newProps.event)});
   }
 
   animate (el) {
@@ -44,20 +66,39 @@ class Timeline extends Component {
     setInterval(() => {this.animate(el)}, 10);
   }
 
+  timelineSelectionCallback(event) {
+    this.props.eventSelectionCallback(event, () => {
+      scroller.scrollTo(
+        event + "-header",
+        {
+          offset: LINK_OFFSET,
+          spy: true,
+          smooth: true,
+          delay: SCROLL_DELAY,
+          duration: SCROLL_DURATION,
+          isDynamic: true,
+        }
+      );
+    });
+  }
+
   render() {
     return (
       <div className="timeline-wrapper">
         <Element className="scrollable" id="timeline-scroll">
           {Object.keys(events).reverse().map((eventName, i) => {
-              let event = events[eventName];
-              return (
-                <TimelineEvent
-                  key={eventName}
-                  eventName={eventName}
-                  date={event.full}
-                  num={event.roman}
-                  description={event.short}
-                />);
+            let event = events[eventName];
+            return (
+              <TimelineEvent
+                key={eventName}
+                eventName={eventName}
+                date={event.full}
+                num={event.roman}
+                description={event.short}
+                eventSelectionCallback={
+                  this.timelineSelectionCallback.bind(this)
+                }
+              />);
           })}
         </Element>
       </div>

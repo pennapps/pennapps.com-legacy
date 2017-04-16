@@ -94,7 +94,11 @@ class OrganizerList extends Component {
   render() {
     let organizerComps = null;
     let header = null;
-    if (this.props.showAny && this.props.event !== 'none') {
+    if (
+      this.props.showAny &&
+      !!this.props.event &&
+      this.props.events.hasOwnProperty(this.props.event)
+    ) {
       organizerComps = this.generateOrganizerComps()
       header = <h2>{this.props.events[this.props.event].full}</h2>;
     }

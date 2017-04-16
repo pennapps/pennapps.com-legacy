@@ -4,7 +4,7 @@ import './App.css';
 import History from './History'
 import Timeline from './Timeline';
 import OrganizerList from './organizers/OrganizerList';
-import VisibilitySensor from 'react-visibility-sensor'
+import Waypoint from 'react-waypoint';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import events from '../data/events.json';
 import currentEventInfo from '../data/currentEvent.json';
@@ -18,7 +18,8 @@ class App extends Component {
     this.state = {
       currentlyViewedEvent: '',
       showOrganizers: false,
-      mobile: window.innerWidth <= MOBILE_WIDTH
+      mobile: window.innerWidth <= MOBILE_WIDTH,
+      lockScrollListeners: false,
     }
 
     this.shouldComponentUpdate =
@@ -39,36 +40,45 @@ class App extends Component {
     console.log(this.state.mobile);
   }
 
-  changeCurrentlyViewedEvent(event) {
-    if (event) {
-      this.setState({ currentlyViewedEvent: event });
+  changeCurrentlyViewedEvent(event, callback) {
+    if (event && !this.state.lockScrollListeners) {
+      this.setState({ currentlyViewedEvent: event }, callback);
     }
   }
 
-  splashVisibleCallack(event) {
-    this.setState({showOrganizers: !event});
+  splashActionCallback(action) {
+    this.setState({showOrganizers: action})
+  }
+
+  lockScrollListeners() {
+    this.setState({lockScrollListeners: !this.state.lockScrollListeners});
   }
 
   render() {
     return (
       <div className="landing">
         <div className="splash">
-          <Timeline />
+          <Timeline
+            eventSelectionCallback={this.changeCurrentlyViewedEvent.bind(this)}
+            event={this.state.currentlyViewedEvent}
+            lockHistoryScrollListener={this.lockScrollListeners.bind(this)}
+          />
           <div className="head-text">
             <img src={logo} alt="logo" className="logo"></img>
             <h1>PennApps</h1>
             <h2>{currentEventInfo.season} {currentEventInfo.year}</h2>
-            <a href={currentEventInfo.siteLink}>
-              <div className="button">Enter Site</div>
+            <a href={currentEventInfo.siteLink || '#'}>
+              <div className="button">{currentEventInfo.hasOwnProperty('siteLink') ? 'Enter Site' : 'Coming Soon'}</div>
             </a>
           </div>
         </div>
+        <Waypoint
+          onEnter={this.splashActionCallback.bind(this, false)}
+          onLeave={this.splashActionCallback.bind(this, true)}
+          topOffset={TIMELINE_OFFSET}
+        />
+
         <div className="content">
-          <VisibilitySensor
-            onChange={this.splashVisibleCallack.bind(this)}
-            scrollCheck={true}
-            offset={{top: TIMELINE_OFFSET}}
-          />
           <OrganizerList
             showAny={this.state.showOrganizers}
             showAll={this.state.mobile}
@@ -79,6 +89,7 @@ class App extends Component {
             eventViewCallback={this.changeCurrentlyViewedEvent.bind(this)}
             event={this.state.currentlyViewedEvent}
             events={events}
+            lockScrollListeners={this.state.lockScrollListeners}
           />
         </div>
       </div>
