@@ -11,7 +11,7 @@
 
 		<!-- Open Graph -->
 		<meta property="og:title" content="PennApps - the world's largest college hackathon | Home">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="http://www.pennapps.com/fb.png">
 		<meta property="og:url" content="http://www.pennapps.com">
 		<meta name="og:description" content="Hosted at the nation's first university, PennApps is the original and largest college hackathon. Come join us to learn something new, build an app, or start a company.">
 		<meta property="og:type" content="website">
@@ -20,6 +20,7 @@
 		<!-- Twitter Cards -->
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="@pennapps" />
+    <meta name="twitter:image" content="http://www.pennapps.com/twitter.png" />
 
 		<!-- Rich Snippet Markup -->
 		<script type="application/ld+json">
@@ -35,9 +36,17 @@
 				"url": "http://www.pennapps.com",
 				"memberOf": "University of Pennsylvania",
         "email": "contact@pennapps.com",
-        "location": "Philadelphia, PA",
-        "logo": "[INSERT LOGO LINK HERE]",
-        "member": [
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "220 S. 33rd St.",
+            "addressLocality": "Philadelphia",
+            "addressRegion": "PA"
+          }
+        },
+        "logo": "http://www.pennapps.com/favicon.png",
+        "subOrganization": [
           "PennApps Fellows",
           "PennApps Accelerator"
         ],
@@ -55,8 +64,8 @@
 
 		<!-- Misc Links -->
 		<link rel="canonical" href="http://www.pennapps.com">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' type='text/css'>
   </head>
