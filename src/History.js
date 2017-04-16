@@ -2,12 +2,17 @@ import React, { Component } from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import HistoryEvent from './HistoryEvent';
 
+var sortEvents = (a, b) => {
+  let diff = Number(a.substring(0, 4)) - Number(b.substring(0, 4));
+  return (diff > 0) ? 1 : (diff < 0) ? -1 : b.charCodeAt(4) - a.charCodeAt(4);
+};
 
 class History extends Component {
   static propTypes = {
     eventViewCallback: React.PropTypes.func.isRequired,
     event: React.PropTypes.string.isRequired,
     events: React.PropTypes.object.isRequired,
+    lockScrollListeners: React.PropTypes.bool.isRequired,
   }
 
   constructor(props) {
@@ -22,27 +27,31 @@ class History extends Component {
   }
 
   visibilityChangeCallback(event) {
-    let eventName = Object.keys(event)[0];
-    this.setState({ [eventName]: event[eventName] });
-  }
+    if (!this.props.lockScrollListeners) {
 
-  componentDidUpdate() {
-    let ordered = Object.keys(this.state)
-      .filter(e => this.state[e])
-      .sort((a, b) => {
-        let diff = Number(a.substring(0, 4)) - Number(b.substring(0, 4));
-        return (diff > 0) ? -1 : (diff < 0) ? 1 : b.charAt(4) - a.charAt(4);
+      let eventName = Object.keys(event)[0];
+      this.setState({ [eventName]: event[eventName] }, () => {
+        // Take the lowest viewable event
+        let sorted = Object.keys(this.state)
+          .filter(k => this.state[k])
+          .sort(sortEvents);
+        if (sorted.length > 0) {
+          this.props.eventViewCallback(sorted[0]);
+        }
       });
-    if (ordered[0] !== this.props.event) {
-      this.props.eventViewCallback(ordered[0]);
     }
   }
 
   render() {
+    // Only load data for up to one beyond the current event
+    let eventList = Object.keys(this.props.events).sort(sortEvents).reverse();
+    let eventsToLoad = eventList;
+    // TODO: replace for infinite scroll
+    // let eventsToLoad = eventList.slice(0, eventList.indexOf(this.props.event) + 2);
     return (
       <div className="history" id="history">
         <h2>History</h2>
-        {Object.keys(this.props.events).map((eventName, i) => {
+        {eventsToLoad.map((eventName, i) => {
           return (
             <HistoryEvent
               key={eventName}

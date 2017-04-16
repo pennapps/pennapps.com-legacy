@@ -4,7 +4,7 @@ import './App.css';
 import History from './History'
 import Timeline from './Timeline';
 import OrganizerList from './organizers/OrganizerList';
-import VisibilitySensor from 'react-visibility-sensor'
+import Waypoint from 'react-waypoint';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import events from '../data/events.json';
 import currentEventInfo from '../data/currentEvent.json';
@@ -17,27 +17,36 @@ class App extends Component {
     this.state = {
       currentlyViewedEvent: '',
       showOrganizers: false,
+      lockScrollListeners: false,
     }
 
     this.shouldComponentUpdate =
       PureRenderMixin.shouldComponentUpdate.bind(this);
   }
 
-  changeCurrentlyViewedEvent(event) {
-    if (event) {
-      this.setState({ currentlyViewedEvent: event });
+  changeCurrentlyViewedEvent(event, callback) {
+    if (event && !this.state.lockScrollListeners) {
+      this.setState({ currentlyViewedEvent: event }, callback);
     }
   }
 
-  splashVisibleCallack(event) {
-    this.setState({showOrganizers: !event});
+  splashActionCallback(action) {
+    this.setState({showOrganizers: action})
+  }
+
+  lockScrollListeners() {
+    this.setState({lockScrollListeners: !this.state.lockScrollListeners});
   }
 
   render() {
     return (
       <div className="landing">
         <div className="splash">
-          <Timeline />
+          <Timeline
+            eventSelectionCallback={this.changeCurrentlyViewedEvent.bind(this)}
+            event={this.state.currentlyViewedEvent}
+            lockHistoryScrollListener={this.lockScrollListeners.bind(this)}
+          />
           <div className="head-text">
             <img src={logo} alt="logo" className="logo"></img>
             <h1>PennApps</h1>
@@ -47,12 +56,13 @@ class App extends Component {
             </a>
           </div>
         </div>
+        <Waypoint
+          onEnter={this.splashActionCallback.bind(this, false)}
+          onLeave={this.splashActionCallback.bind(this, true)}
+          topOffset={TIMELINE_OFFSET}
+        />
+
         <div className="content">
-          <VisibilitySensor
-            onChange={this.splashVisibleCallack.bind(this)}
-            scrollCheck={true}
-            offset={{top: TIMELINE_OFFSET}}
-          />
           <OrganizerList
             showAny={this.state.showOrganizers}
             event={this.state.currentlyViewedEvent}
@@ -62,6 +72,7 @@ class App extends Component {
             eventViewCallback={this.changeCurrentlyViewedEvent.bind(this)}
             event={this.state.currentlyViewedEvent}
             events={events}
+            lockScrollListeners={this.state.lockScrollListeners}
           />
         </div>
       </div>
