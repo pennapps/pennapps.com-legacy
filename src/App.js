@@ -91,6 +91,9 @@ class App extends Component {
             lockScrollListeners={this.state.lockScrollListeners}
           />
         </div>
+        <div className="footer">
+          PennApps is organized by students with the help of <a href="http://www.seas.upenn.edu/">Penn Engineering</a>. This website is open sourced on <a href="https://github.com/pennapps/pennapps.com">Github</a>.
+        </div>
       </div>
     );
   }

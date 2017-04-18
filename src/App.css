@@ -28,6 +28,22 @@ a {
   text-align: center;
 }
 
+.footer {
+  position: fixed;
+  color: #A6A6A6;
+  background: white;
+  bottom: 0;
+  text-align: center;
+  width: 100vw;
+  padding: 5px;
+  font-size: 0.8em;
+  box-shadow: 0px 0px 5px #afafaf;
+}
+
+.footer a {
+  background: #efefef
+}
+
 .logo {
   height: 200px;
   margin-top: 20px;
@@ -313,6 +329,10 @@ a {
     top: 0px;
     overflow-y: visible;
     max-height: auto;
+  }
+
+  .footer {
+    font-size: 0.6em;
   }
 
   .history {

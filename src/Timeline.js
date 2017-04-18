@@ -63,10 +63,11 @@ class Timeline extends Component {
     // set height of organizer container according to timeline on dekstop
     var orgEl = document.getElementsByClassName('organizers')[0];
     if (window.innerWidth > 610) {
-      console.log(document.getElementsByClassName('timeline-wrapper')[0].offsetHeight);
       var timelineHeight = document.getElementsByClassName('timeline-wrapper')[0].offsetHeight;
+      var footerHeight = document.getElementsByClassName('footer')[0].offsetHeight;
+      console.log(footerHeight);
       orgEl.style.top = "" + timelineHeight + "px";
-      orgEl.style.height = "" + (window.innerHeight - timelineHeight) + "px";
+      orgEl.style.height = "" + (window.innerHeight - timelineHeight - footerHeight) + "px";
     }
 
   }
