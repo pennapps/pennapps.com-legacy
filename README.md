@@ -1,6 +1,6 @@
 # pennapps-main
 
-Do not update the code in this repository unless you really know what you're doing. Only submit a Pull Request, do not commit directly.
+Do not update the code in this repository unless you really know what you're doing. Please do update the data as time passes. Only submit a Pull Request, do not commit directly.
 
 To update information, submit a Pull Request to one of the files in teh `/data` folder. You may update the following files:
 
@@ -11,8 +11,8 @@ To update information, submit a Pull Request to one of the files in teh `/data` 
 - `organizers.json`: When adding an event to the history and timeline, you *MUST* update this. Please follow the data format listed and add the new oragnizers *at the end of this file*. Please include *at least* the following fields: `name`, `image`, `events`. Remember to look for an existing object for a user before creating a new one. the `events` object expects keys to be of the exact same form as listed in `linksList.json`, ie, `[year][s|f]`, and the value to be the title (usually "Board", "Vice-Director" or "Director").
 
 ## Building and Deploying the Site
-###### To build the site, run `npm run build`. It performs the below steps.
-Run `react-scripts build`. This generates minimied and production-optimized output in `/build`.
+###### To build and deploy the site, run `npm run build`. It performs the below steps.
+Run `react-scripts build`. This generates minimized and production-optimized output in `/build`.
 
 Add a `CNAME` file to `/build`, since rebuilding removes it, and we need to be in the top of `gh-pages`, which only contains the `/build` subdirectory:
 
@@ -49,3 +49,8 @@ git push -f origin gh-pages
 git checkout -
 git push origin master
 ```
+
+## Developing on the site
+
+If you're really sure you want to contribute code, go for it. Send us a Pull Request. You can get the development server running with `npm start`.
+
