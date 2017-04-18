@@ -28,6 +28,7 @@ class HistoryEvent extends Component {
       <Waypoint
         onEnter={this.onViewActionCallback.bind(this, true)}
         onLeave={this.onViewActionCallback.bind(this, false)}
+        fireOnRapidScroll={false}
         bottomOffset={TIMELINE_SIZE + window.innerHeight / PARTIAL_VIEW_RATIO}>
         <div className="history-event-wrapper">
           <Element name={this.props.eventName + "-header"}>
