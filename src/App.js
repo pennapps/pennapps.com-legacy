@@ -37,7 +37,6 @@ class App extends Component {
 
   updateIsMobile () {
     this.setState({mobile: window.innerWidth <= MOBILE_WIDTH});
-    console.log(this.state.mobile);
   }
 
   changeCurrentlyViewedEvent(event, callback) {

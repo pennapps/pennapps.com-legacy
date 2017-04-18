@@ -46,10 +46,10 @@ class OrganizerList extends Component {
     if (this.state.showAll) {
       relevantOrganizers = relevantOrganizers.sort((a,b) => {
         return (a.name > b.name) ? 1 : -1;
-      }).sort((a,b) => {
-        var aEvents = Object.keys(a.events);
-        var bEvents = Object.keys(b.events);
-        return parseInt(aEvents[aEvents.length - 1].substring(0,4)) > parseInt(bEvents[bEvents.length - 1].substring(0,4)) ? -1 : 1;
+      }).sort((a, b) => {
+        let aEvents = Object.keys(a.events);
+        let bEvents = Object.keys(b.events);
+        return parseInt(aEvents[aEvents.length - 1].substring(0,4), 10) > parseInt(bEvents[bEvents.length - 1].substring(0,4), 10) ? -1 : 1;
       });
     // on larger devices, only show current event sorted by position
     } else {
