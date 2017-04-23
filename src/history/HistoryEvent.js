@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import HistoryEventArticle from './HistoryEventArticle';
-import links from '../data/links.json';
+import links from '../../data/links.json';
 import { Element } from 'react-scroll';
 import Waypoint from 'react-waypoint';
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TimelineEvent from './TimelineEvent'
-import events from '../data/events.json';
+import events from '../../data/events.json';
 import { Events, Element, scroller } from 'react-scroll';
 
 const LINK_OFFSET = -175;

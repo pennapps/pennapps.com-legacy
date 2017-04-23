@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
 import './App.css';
-import History from './History'
-import Timeline from './Timeline';
+import History from './history/History'
+import Timeline from './timeline/Timeline';
 import OrganizerList from './organizers/OrganizerList';
 import Waypoint from 'react-waypoint';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
