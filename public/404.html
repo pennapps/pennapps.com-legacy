@@ -1,0 +1,16 @@
+<!--
+Redirects all traffic to any paths within pennapps.com to
+pages.pennapps.com, which DNS routes to NGINX on the requisite server.
+
+Combines any arbitrary-length URL suffix and appends to the new hostname.
+
+Inspiration from https://github.com/rafrex/spa-github-pages
+-->
+<script type="text/javascript">
+  var l = window.location;
+  var redirectedHostname = 'pages.pennapps.com';
+  l.replace(
+    l.protocol + '//' + redirectedHostname +
+    l.pathname.split('/').slice(0, l.pathname.length).join('/')
+  );
+</script>
