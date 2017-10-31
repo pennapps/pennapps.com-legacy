@@ -1,4 +1,18 @@
 {
+  "2018s": {
+    "roman": "XVII",
+    "link": "http://2018w.pennapps.com",
+    "full": "Spring 2018",
+    "short": "Pennapps is back... to the 70s in this retro hackathon",
+    "longHTML": "In PennApps XVII we are going back to a simpler time before everything was a webapp and letting loose some great ideas from before the millenium."
+  },
+  "2017f": {
+    "roman": "XVI",
+    "link": "http://2017f.pennapps.com",
+    "full": "Fall 2017",
+    "short": "Easily the most sneaky pennapps as hackers completed their \"code\"-vert ops",
+    "longHTML": "PennApps XVI went fully modern, bringing together all the fun of hacking with the excitement of James Bond in this Spy themed PennApps."
+  },
   "2017s": {
     "roman": "XV",
     "link": "http://2017w.pennapps.com",

@@ -499,11 +499,13 @@
     "name": "Ben Judd",
     "facebook": "https://www.facebook.com/ben.judd.9",
     "linkedin": "https://www.linkedin.com/in/ben-judd-362a85b4/",
-    "github": "https://github.com/Icantjuddle",
+    "github"  : "https://github.com/Icantjuddle",
     "image": "/images/ben.jpg",
     "events": {
-      "2017s": "Board",
-      "2016f": "Board"
+      "2018s": "Dev",
+      "2017f": "Logistics & Dev",
+      "2017s": "Logistics",
+      "2016f": "Logistics"
     }
   },
   {
@@ -609,7 +611,9 @@
     "github": "https://github.com/ysthedood",
     "image": "/images/yash.jpg",
     "events": {
-      "2017s": "Board"
+      "2017s": "Board",
+      "2017f": "Board",
+      "2018s": "Board"
     }
   },
   {
@@ -618,16 +622,20 @@
     "linkedin": "https://www.linkedin.com/in/suniabukhari/",
     "image": "/images/sunia.jpg",
     "events": {
-      "2017s": "Board"
+      "2017s": "Board",
+      "2017f": "Board",
+      "2018s": "Board"
     }
   },
   {
     "name": "Stephanie Tang",
     "facebook": "https://www.facebook.com/stephanie.tang.9041",
     "linkedin": "https://www.linkedin.com/in/stephanie-tang-b3b132b0/",
+    "website" : "www.stephaniestang.com",
     "image": "/images/stephanie.jpg",
     "events": {
-      "2017s": "Board"
+      "2017s": "Board",
+      "2017f": "Board"
     }
   },
   {
@@ -635,6 +643,16 @@
     "facebook": "https://www.facebook.com/wu.quinn",
     "linkedin": "https://www.linkedin.com/in/quinnlwu/",
     "image": "/images/quinn.jpg",
+    "events": {
+      "2017s": "Board",
+      "2017f": "Board"
+    }
+  },
+  {
+    "name": "Amy Wang",
+    "image": "/images/amy_wang.jpg", 
+    "linkedin" : "https://www.linkedin.com/in/amy-wang",
+    "facebook" :"https://www.facebook.com/amyamersami",
     "events": {
       "2017s": "Board"
     }
@@ -644,7 +662,110 @@
     "facebook": "https://www.facebook.com/emily.spencer.50",
     "image": "/images/emily.jpg",
     "events": {
-      "2017s": "Board"
+      "2017s": "Board",
+      "2017f": "Board",
+      "2018s": "Board"
+    }
+  },
+  {
+    "name": "Mayank Mardia",
+    "image": "/images/mayank_mardia.jpg",
+    "events": {
+      "2018s": "Board"
+    }
+  },
+  {
+    "name": "Chris Lin",
+    "image": "/images/chris_lin.jpg",
+    "facebook" : "www.facebook.com/linstopher",
+    "events": {
+      "2018s": "Board",
+      "2017f": "Board"
+    }
+  },
+  {
+    "name": "Dan Truong",
+    "facebook": "https://www.facebook.com/danphanngoctruong",
+    "linkedin" : "https://www.linkedin.com/in/truongd/",
+    "image": "/images/dan_truong.png",
+    "events": {
+      "2018s": "Board"
+    }
+  },
+  {
+    "name": "Steven Bursztyn",
+    "facebook": "https://www.facebook.com/steven.bursztyn",
+    "linkedin": "https://www.linkedin.com/in/stevenbursztyn",
+    "image": "/images/steven_bursztyn.jpg",
+    "events": {
+      "2018s": "Board"
+    }
+  },
+  {
+    "name": "Angel Fan",
+    "linkedin" : "www.linkedin.com/in/angel-f-5b9bb1104",
+    "website" : "http://angelfanphotography.weebly.com/",
+    "image": "/images/angel_fan.jpg",
+    "events": {
+      "2017f": "Board",
+      "2018s": "Board"
+    }
+  },
+  {
+    "name": "Anton Relin",
+    "facebook": "https://www.linkedin.com/in/arelin/",
+    "website" : "http://www.sas.upenn.edu/~arelin/",
+    "github" : "https://github.com/relisher/",
+    "image": "/images/anton_relin.jpg",
+    "events": {
+      "2017f": "Board",
+      "2018s": "Board"
+    }
+  },
+  {
+    "name": "Eric Lei",
+    "facebook" : "https://www.facebook.com/eric.lei.71",
+    "linkedin" : "https://www.linkedin.com/in/eric-lei-b46922b3",
+    "github" : "https://github.com/ericlei",
+    "image": "/images/eric_lei.jpg",
+    "events": {
+      "2018s": "Board",
+      "2017f": "Board"
+    }
+  },
+  {
+    "name": "David Wang",
+    "linkedin" : "https://www.linkedin.com/in/david-wang-a4a856104/",
+    "github" : "https://github.com/david-wang-1",
+    "image": "/images/davi_wang.jpg",
+    "events": {
+      "2018s": "Board"
+    }
+  },
+  {
+    "name": "Claire Donovan",
+    "image": "/images/claire_donovan.jpg",
+    "events": {
+      "2018s": "Board"
+    }
+  },
+  {
+    "name": "Adele Li",
+    "linkedin" : "https://www.linkedin.com/in/adeleli",
+    "facebook": "https://www.facebook.com/adeleli115",
+    "image": "/images/adele_li.jpg",
+    "events": {
+      "2018s": "Board"
+    }
+  },
+  {
+    "name": "Julia Schorr",
+    "facebook": "www.linkedin.com/in/julia-schorr-923182127",
+    "website" : "www.juliaschorr.com",
+    "image": "/images/julia_schorr.jpg",
+    "events": {
+      "2017f": "Board",
+      "2018s": "Board"
     }
   }
 ]
