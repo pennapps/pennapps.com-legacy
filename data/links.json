@@ -3,7 +3,54 @@
     
   ],
   "2017f":[
-
+    {
+      "title": "3D printing, image recognition, data visualisation, augmented reality & more",
+      "site": "Hasura",
+      "description": "PennApps 2017 saw some extremely creative apps built on Hasura",
+      "url": "https://blog.hasura.io/3d-printing-image-recognition-data-visualisation-augmented-reality-more-pennapps-2017-saw-e178bba7bf7c",
+      "image": {
+        "url": "https://cdn-images-1.medium.com/max/1600/1*aaOnyvDe8ObmgRfp1H-mTQ.png",
+        "width": null,
+        "height": null,
+        "type": null
+      }
+    },
+    {
+      "title": "3 \"Hacks\" That Could Change the World",
+      "site": "BlackRock",
+      "description": "There is a reason why I, along with my long-time colleagues Rob Goldstein and Sunil Dalal, couldn’t resist this “36 hour code party,” as one high school hacker called it — and it’s not the cool swag. The innovations that have come out of PennApps, and other student hackathons like it, have improved lives, disrupted industries, and in their own way have helped change the world — almost always for the better.",
+      "url": "https://medium.com/towards-data-science/3-hacks-that-could-change-the-world-704f58c320be",
+      "image": {
+        "url": "https://cdn-images-1.medium.com/max/800/1*2vmPkHwR9jcDveXpPfeAoA.jpeg",
+        "width": null,
+        "height": null,
+        "type": null
+      }
+    },
+    {
+      "title": "At PennApps XVI, students made inter-dimensional robots and hung out with the founder of Quora",
+      "site": "The Daily Pennsylvanian",
+      "description": "Student hackers claimed spots all over campus to code and develop applications in the hopes of winning prizes, which had a total value of more than $77,000. The top three winning projects were Sorty McSortface, a recycling and trash bin which automatically sorts waste, PillAR, a virtual medicine tracker and Todd: the inter-dimensional robot.",
+      "url": "http://www.thedp.com/article/2017/09/at-pennapps-xvi-students-made-inter-dimensional-robots-and-hung-out-with-the-founder-of-quora",
+      "image": {
+        "url": "http://snworksceo.imgix.net/dpn/457d974e-a415-46a3-ae63-20a7d24b2e67.sized-1000x1000.jpg",
+        "width": null,
+        "height": null,
+        "type": null
+      }
+    },
+    {
+      "title": "\"Sorty McSortface\"took home the grand prize at PennApps XVI",
+      "site": "Penn Engineering",
+      "description": "A smart recycling bin named “Sorty McSortface” took home the grand prize at PennApps XVI, beating more than 150 tech projects developed over the course of a weekend.",
+      "url": "https://medium.com/penn-engineering/smart-recycling-bin-wins-pennapps-xvi-92651fa32f8a",
+      "image": {
+        "url": "http://www.seas.upenn.edu/~purohit/images/penn_engineering.jpg",
+        "width": null,
+        "height": null,
+        "type": null
+      }
+    }
   ],
   "2017s": [
     {
