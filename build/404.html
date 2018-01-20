@@ -8,13 +8,9 @@ Inspiration from https://github.com/rafrex/spa-github-pages
 -->
 <script type="text/javascript">
   var l = window.location;
-  if (l.pathname.length === 0) {
-    l.replace(l.protocol + '//' + 'live.pennapps.com')
-  } else {
   var redirectedHostname = 'pages.pennapps.com';
-    l.replace(
-      l.protocol + '//' + redirectedHostname +
-      l.pathname.split('/').slice(0, l.pathname.length).join('/')
-    );
-  }
+  l.replace(
+    l.protocol + '//' + redirectedHostname +
+    l.pathname.split('/').slice(0, l.pathname.length).join('/')
+  );
 </script>
