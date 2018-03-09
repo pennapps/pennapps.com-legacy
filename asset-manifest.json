@@ -1,7 +1,12 @@
 {
   "main.css": "static/css/main.4eb792ae.css",
   "main.css.map": "static/css/main.4eb792ae.css.map",
+<<<<<<< HEAD
   "main.js": "static/js/main.9db4bcf8.js",
   "main.js.map": "static/js/main.9db4bcf8.js.map",
+=======
+  "main.js": "static/js/main.5356964c.js",
+  "main.js.map": "static/js/main.5356964c.js.map",
+>>>>>>> 79ca4ba1195da16c7578ddd40330cbdb01d69d92
   "static/media/logo.png": "static/media/logo.081ac82f.png"
 }
