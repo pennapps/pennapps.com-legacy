@@ -502,8 +502,8 @@
     "github"  : "https://github.com/Icantjuddle",
     "image": "/images/ben.jpg",
     "events": {
-      "2018s": "Dev",
-      "2017f": "Logistics & Dev",
+      "2018s": "Board",
+      "2017f": "Board",
       "2017s": "Logistics",
       "2016f": "Logistics"
     }
@@ -612,8 +612,8 @@
     "image": "/images/yash.jpg",
     "events": {
       "2017s": "Board",
-      "2017f": "Board",
-      "2018s": "Board"
+      "2017f": "Director",
+      "2018s": "Director"
     }
   },
   {
@@ -623,8 +623,8 @@
     "image": "/images/sunia.jpg",
     "events": {
       "2017s": "Board",
-      "2017f": "Board",
-      "2018s": "Board"
+      "2017f": "Vice D",
+      "2018s": "Vice D"
     }
   },
   {
@@ -689,7 +689,8 @@
     "linkedin" : "https://www.linkedin.com/in/truongd/",
     "image": "/images/dan_truong.png",
     "events": {
-      "2018s": "Board"
+      "2018s": "Board",
+      "2018f": "Sponsorship"
     }
   },
   {
@@ -698,17 +699,19 @@
     "linkedin": "https://www.linkedin.com/in/stevenbursztyn",
     "image": "/images/steven_bursztyn.jpg",
     "events": {
-      "2018s": "Board"
+      "2018s": "Board",
+      "2018f": "Outreach"
     }
   },
   {
     "name": "Angel Fan",
-    "linkedin" : "www.linkedin.com/in/angel-f-5b9bb1104",
-    "website" : "angelqfan.com",
+    "linkedin" : "http://www.linkedin.com/in/angel-f-5b9bb1104",
+    "website" : "http://angelqfan.com",
     "image": "/images/angel_fan.jpg",
     "events": {
       "2017f": "Board",
-      "2018s": "Board"
+      "2018s": "Board",
+      "2018f": "Creative"
     }
   },
   {
@@ -746,7 +749,8 @@
     "name": "Claire Donovan",
     "image": "/images/claire_donovan.jpg",
     "events": {
-      "2018s": "Board"
+      "2018s": "Board",
+      "2018f": "Director"
     }
   },
   {
@@ -755,17 +759,89 @@
     "facebook": "https://www.facebook.com/adeleli115",
     "image": "/images/adele_li.jpg",
     "events": {
-      "2018s": "Board"
+      "2018s": "Board",
+      "2018f": "Vice Director"
     }
   },
   {
     "name": "Julia Schorr",
-    "facebook": "www.linkedin.com/in/julia-schorr-923182127",
-    "website" : "www.juliaschorr.com",
+    "facebook": "http://www.linkedin.com/in/julia-schorr-923182127",
+    "website" : "http://www.juliaschorr.com",
     "image": "/images/julia_schorr.jpg",
     "events": {
       "2017f": "Board",
       "2018s": "Board"
     }
+  },
+  {
+    "name": "Rahul Chopra",
+    "image": "/images/rahul_chopra",
+    "events": {
+      "2018f": "Sponsorship"
+    }
+  },
+  {
+    "name": "Ethan Boyer",
+    "image": "/images/ethan_boyer",
+    "events": {
+      "2018f": "Sponsorship"
+    }
+  },
+  {
+    "name": "Yvonne Szustakiewicz",
+    "image": "/images/yvonne_szustakiewicz",
+    "events": {
+      "2018f": "Logistics"
+    }
+  },
+  {
+    "name": "Derya Yavuz",
+    "image": "/images/derya_yavuz",
+    "events": {
+      "2018f": "Logistics"
+    }
+  },
+  {
+    "name": "Tiffany Tsang",
+    "image": "/images/tiffany_tsang",
+    "events": {
+      "2018f": "Logistics"
+    }
+  },
+  {
+    "name": "Nathan Ng",
+    "image": "/images/nathan_ng",
+    "events": {
+      "2018f": "Outreach"
+    }
+  },
+  {
+    "name": "Matthew Kongsiri",
+    "image": "/images/matthew_kongsiri",
+    "events": {
+      "2018f": "Creative"
+    }
+  },
+  {
+    "name": "Kyle Permuy",
+    "image": "/images/kyle_permuy",
+    "events": {
+      "2018f": "Learning"
+    }
+  },
+  {
+    "name": "Will Morgus",
+    "image": "/images/will_morgus",
+    "events": {
+      "2018f": "Dev"
+    }
+  },
+  {
+    "name": "Ayaaz Versi",
+    "image": "/images/ayaaz_versi",
+    "events": {
+      "2018f": "Hardware"
+    }
   }
+  
 ]
