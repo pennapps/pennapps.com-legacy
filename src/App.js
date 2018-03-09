@@ -67,7 +67,7 @@ class App extends Component {
             <h1>PennApps</h1>
             <h2>{currentEventInfo.season} {currentEventInfo.year}</h2>
             <a href={currentEventInfo.siteLink || '#'}>
-              <div className="button">{currentEventInfo.hasOwnProperty('siteLink') ? 'Enter Site' : 'Coming Soon'}</div>
+              <div className="button">{currentEventInfo.hasOwnProperty('siteLink') ? 'Coming Soon' : 'Coming Soon'}</div>
             </a>
           </div>
         </div>
