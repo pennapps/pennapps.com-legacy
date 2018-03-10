@@ -100,7 +100,7 @@ class Organizer extends Component {
   render() {
     return (
       <div className={'organizer'}>
-        <img src={this.props.image} alt={this.props.name} />
+        <img src={this.props.image.toLowerCase()} alt={this.props.name} />
         <span className="name">{this.props.name}</span>
         <br />
         {this.getWebsite()}
