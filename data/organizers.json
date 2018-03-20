@@ -504,8 +504,8 @@
     "events": {
       "2018s": "Board",
       "2017f": "Board",
-      "2017s": "Logistics",
-      "2016f": "Logistics"
+      "2017s": "Board",
+      "2016f": "Board"
     }
   },
   {
@@ -600,8 +600,8 @@
       "2015s": "Photography",
       "2015f": "Photography",
       "2016s": "Photography",
-      "2016f": "Photography",
-      "2017s": "Photography"
+      "2016f": "Board",
+      "2017s": "Board"
     }
   },
   {
@@ -623,8 +623,8 @@
     "image": "/images/sunia.jpg",
     "events": {
       "2017s": "Board",
-      "2017f": "Vice D",
-      "2018s": "Vice D"
+      "2017f": "Vice-Director",
+      "2018s": "Vice-Director"
     }
   },
   {
@@ -654,7 +654,8 @@
     "linkedin" : "https://www.linkedin.com/in/amy-wang",
     "facebook" :"https://www.facebook.com/amyamersami",
     "events": {
-      "2017s": "Board"
+      "2017s": "Board",
+      "2017f": "Board"
     }
   },
   {
@@ -742,6 +743,7 @@
     "github" : "https://github.com/david-wang-1",
     "image": "/images/davi_wang.jpg",
     "events": {
+      "2017f": "Board",
       "2018s": "Board"
     }
   },
@@ -760,7 +762,7 @@
     "image": "/images/adele_li.jpg",
     "events": {
       "2018s": "Board",
-      "2018f": "Vice Director"
+      "2018f": "Vice-Director"
     }
   },
   {
@@ -803,14 +805,14 @@
   },
   {
     "name": "Tiffany Tsang",
-    "image": "/images/tiffany_tsang.jpg",
+    "image": "/images/tiffany_tsang.JPG",
     "events": {
       "2018f": "Logistics"
     }
   },
   {
     "name": "Nathan Ng",
-    "image": "/images/nathan_ng.jpg",
+    "image": "/images/nathan_ng.JPG",
     "events": {
       "2018f": "Outreach"
     }

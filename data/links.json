@@ -3,6 +3,30 @@
 
   ],
   "2018s": [
+    {
+      "title": "Making PennApps XVII Happen",
+      "site": "M&T For Life",
+      "description": "PennApps, the world’s original student-run hackathon, just turned 17. We hosted PennApps XVII January 19-21st, and have seen a lot in these past years.",
+      "url": "https://mandtforlife.com/2018/03/14/making-pennapps-xvii-happen/",
+      "image": {
+        "url": "https://mandtforlife.files.wordpress.com/2018/03/27973863_1685193668204926_5106534566002807883_n.jpg",
+        "width": null,
+        "height": null,
+        "type": null
+      }
+    },
+    {
+      "title": "Devpost Submissions - PennApps XVII",
+      "site": "Devpost",
+      "description": "PennApps Retro",
+      "url": "https://pennapps-xvii.devpost.com/",
+      "image": {
+        "url": "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/584/950/datas/original.png",
+        "width": null,
+        "height": null,
+        "type": null
+      }
+    }
     
   ],
   "2017f":[
@@ -53,7 +77,20 @@
         "height": null,
         "type": null
       }
+    },
+    {
+      "title": "Devpost Submissions - PennApps XVI",
+      "site": "Devpost",
+      "description": "Codevert Ops",
+      "url": "https://pennapps-xvi.devpost.com/",
+      "image": {
+        "url": "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/528/662/datas/original.png",
+        "width": null,
+        "height": null,
+        "type": null
+      }
     }
+    
   ],
   "2017s": [
     {
