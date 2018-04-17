@@ -717,7 +717,7 @@
   },
   {
     "name": "Anton Relin",
-    "facebook": "https://www.linkedin.com/in/arelin/",
+    "linkedin": "https://www.linkedin.com/in/arelin/",
     "website" : "http://www.sas.upenn.edu/~arelin/",
     "github" : "https://github.com/relisher/",
     "image": "/images/anton_relin.jpg",
@@ -834,6 +834,9 @@
   {
     "name": "Will Morgus",
     "image": "/images/will_morgus.jpg",
+    "linkedin": "https://www.linkedin.com/in/wmorgus/",
+    "website" : "https://willmorg.us",
+    "github" : "https://github.com/wmorgus/",
     "events": {
       "2018f": "Dev"
     }
