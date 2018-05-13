@@ -64,10 +64,12 @@ class App extends Component {
           />
           <div className="head-text">
             <img src={logo} alt="logo" className="logo"></img>
-            <h1>PennApps</h1>
-            <h2>{currentEventInfo.season} {currentEventInfo.year}</h2>
+            
+            <h1>The Original College Hackathon</h1>
+            
+
             <a href={currentEventInfo.siteLink || '#'}>
-              <div className="button">{currentEventInfo.hasOwnProperty('siteLink') ? 'Coming Soon' : 'Coming Soon'}</div>
+              <div className="button">{currentEventInfo.hasOwnProperty('siteLink') ? ('Enter ' + currentEventInfo.season + " " +  currentEventInfo.year.substring(0, 4) + " site" ) : 'Coming Soon'}</div>
             </a>
           </div>
         </div>
