@@ -691,7 +691,8 @@
     "image": "/images/dan_truong.jpg",
     "events": {
       "2018s": "Board",
-      "2018f": "Sponsorship"
+      "2018f": "Sponsorship",
+      "2019w": "Hacker XP"
     }
   },
   {
@@ -712,7 +713,8 @@
     "events": {
       "2017f": "Board",
       "2018s": "Board",
-      "2018f": "Creative"
+      "2018f": "Creative",
+      "2019w": "Creative"
     }
   },
   {
@@ -752,7 +754,8 @@
     "image": "/images/claire_donovan.jpg",
     "events": {
       "2018s": "Board",
-      "2018f": "Director"
+      "2018f": "Director",
+      "2019w": "Director"
     }
   },
   {
@@ -762,7 +765,8 @@
     "image": "/images/adele_li.jpg",
     "events": {
       "2018s": "Board",
-      "2018f": "Vice-Director"
+      "2018f": "Vice-Director",
+      "2019w": "Vice-Director"
     }
   },
   {
@@ -786,28 +790,32 @@
     "name": "Ethan Boyer",
     "image": "/images/ethan_boyer.jpg",
     "events": {
-      "2018f": "Sponsorship"
+      "2018f": "Sponsorship",
+      "2019w": "Sponsorship"
     }
   },
   {
     "name": "Yvonne Szustakiewicz",
     "image": "/images/yvonne_szustakiewicz.jpg",
     "events": {
-      "2018f": "Logistics"
+      "2018f": "Logistics",
+      "2019w": "Logistics"
     }
   },
   {
     "name": "Derya Yavuz",
     "image": "/images/derya_yavuz.jpg",
     "events": {
-      "2018f": "Logistics"
+      "2018f": "Logistics",
+      "2019w": "Logistics"
     }
   },
   {
     "name": "Tiffany Tsang",
     "image": "/images/tiffany_tsang.JPG",
     "events": {
-      "2018f": "Logistics"
+      "2018f": "Logistics",
+      "2019w": "Logistics"
     }
   },
   {
@@ -823,7 +831,8 @@
     "linkedin": "https://www.linkedin.com/in/mkongsiri/",
     "facebook":"https://www.facebook.com/matthewkongsiri",
     "events": {
-      "2018f": "Creative"
+      "2018f": "Creative",
+      "2019w": "Creative"
     }
   },
   {
@@ -848,6 +857,41 @@
     "image": "/images/ayaaz_versi.jpg",
     "events": {
       "2018f": "Hardware"
+    }
+  },
+  {
+    "name": "Grace Chong",
+    "image": "/images/grace_chong.jpg",
+    "events": {
+      "2019w": "Logistics"
+    }
+  },
+  {
+    "name": "Willy Fan",
+    "image": "/images/willy_fan.jpg",
+    "events": {
+      "2019w": "Sponsorship"
+    }
+  },
+  {
+    "name": "Claudia Haddad",
+    "image": "/images/claudia_haddad.jpg",
+    "events": {
+      "2019w": "Sponsorship"
+    }
+  },
+  {
+    "name": "Diana Marsala",
+    "image": "/images/diana_marsala.jpg",
+    "events": {
+      "2019w": "Outreach"
+    }
+  },
+  {
+    "name": "Jules Pierce",
+    "image": "/images/jules_pierce.jpg",
+    "events": {
+      "2019w": "Outreach"
     }
   }
   
