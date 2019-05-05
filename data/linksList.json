@@ -1,14 +1,17 @@
 {
   "2019w": [
-    
+    "https://www.34st.com/article/2019/02/penn-apps-director-adele-li-intersection-of-business-and-technology?fbclid=IwAR3W1jj_P-TKpiXxiZ1tsoUqsCNIkpHXGMDo1cppkogDJBkijjqz_WbHkaw",
+    "https://pennapps-xix.devpost.com/"
   ],
   "2018f": [
-    
+    "https://medium.com/penn-engineering/automatic-dubbing-app-wins-pennapps-xviii-80d617347e8b",
+    "https://www.thedp.com/gallery/pennapps-penn-hacking-cis-coding-hackathon-engineering-photo-gallery-upenn",
+    "https://www.mongodb.com/blog/post/hacking-for-resilience-with-mongodb-stitch-at-pennapps-xviii",
+    "https://mandtforlife.com/2018/11/14/conscious-hacking-with-pennapps-2018/",
+    "https://pennapps-xviii.devpost.com/"
   ],
-  "2018s" : [
-    
-  ],
-  "2017f" : [
+  "2018s": [],
+  "2017f": [
     "https://medium.com/penn-engineering/smart-recycling-bin-wins-pennapps-xvi-92651fa32f8a",
     "http://www.thedp.com/article/2017/09/at-pennapps-xvi-students-made-inter-dimensional-robots-and-hung-out-with-the-founder-of-quora",
     "https://medium.com/towards-data-science/3-hacks-that-could-change-the-world-704f58c320be",
@@ -224,8 +227,5 @@
     "http://www.twilio.com/blog/2011/09/college-students-change-the-hackathon-game-at-pennapps.html",
     "http://www.twilio.com/blog/2010/12/college-hackers-gather-in-philadelphia-for-pennapps-mobile.html"
   ],
-  "2009f": [
-    
-  ]
+  "2009f": []
 }
-
