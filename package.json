@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "http://pennapps.com",
   "devDependencies": {
-    "react-scripts": "0.9.3"
+    "react-scripts": "^3.0.0"
   },
   "dependencies": {
     "async": "^2.1.5",
     "jsonfile": "^2.4.0",
-    "open-graph-scraper": "^2.4.2",
+    "open-graph-scraper": "^3.6.1",
     "prop-types": "^15.5.7",
     "react": "^15.4.2",
     "react-addons-pure-render-mixin": "^15.5.2",
@@ -25,5 +25,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "scrape": "node scraper/scraper.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

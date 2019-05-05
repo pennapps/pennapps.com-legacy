@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import logo from './logo.png';
-import './App.css';
-import History from './history/History'
-import Timeline from './timeline/Timeline';
-import OrganizerList from './organizers/OrganizerList';
-import Waypoint from 'react-waypoint';
-import PureRenderMixin from 'react-addons-pure-render-mixin';
-import events from '../data/events.json';
-import currentEventInfo from '../data/currentEvent.json';
+import React, { Component } from "react";
+import logo from "./logo.png";
+import "./App.css";
+import History from "./history/History";
+import Timeline from "./timeline/Timeline";
+import OrganizerList from "./organizers/OrganizerList";
+import Waypoint from "react-waypoint";
+import PureRenderMixin from "react-addons-pure-render-mixin";
+import events from "./data/events.json";
+import currentEventInfo from "./data/currentEvent.json";
 
 const TIMELINE_OFFSET = 200;
 const MOBILE_WIDTH = 610;
@@ -16,27 +16,28 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentlyViewedEvent: '',
+      currentlyViewedEvent: "",
       showOrganizers: false,
       mobile: window.innerWidth <= MOBILE_WIDTH,
-      lockScrollListeners: false,
-    }
+      lockScrollListeners: false
+    };
 
-    this.shouldComponentUpdate =
-      PureRenderMixin.shouldComponentUpdate.bind(this);
+    this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(
+      this
+    );
   }
 
   componentDidMount() {
     this.updateIsMobile();
-    window.addEventListener('resize', this.updateIsMobile.bind(this));
+    window.addEventListener("resize", this.updateIsMobile.bind(this));
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateIsMobile.bind(this));
+    window.removeEventListener("resize", this.updateIsMobile.bind(this));
   }
 
-  updateIsMobile () {
-    this.setState({mobile: window.innerWidth <= MOBILE_WIDTH});
+  updateIsMobile() {
+    this.setState({ mobile: window.innerWidth <= MOBILE_WIDTH });
   }
 
   changeCurrentlyViewedEvent(event, callback) {
@@ -46,11 +47,11 @@ class App extends Component {
   }
 
   splashActionCallback(action) {
-    this.setState({showOrganizers: action})
+    this.setState({ showOrganizers: action });
   }
 
   lockScrollListeners() {
-    this.setState({lockScrollListeners: !this.state.lockScrollListeners});
+    this.setState({ lockScrollListeners: !this.state.lockScrollListeners });
   }
 
   render() {
@@ -63,13 +64,20 @@ class App extends Component {
             lockHistoryScrollListener={this.lockScrollListeners.bind(this)}
           />
           <div className="head-text">
-            <img src={logo} alt="logo" className="logo"></img>
-            
-            <h1>The Original College Hackathon</h1>
-            
+            <img src={logo} alt="logo" className="logo" />
 
-            <a href={currentEventInfo.siteLink || '#'}>
-              <div className="button">{currentEventInfo.hasOwnProperty('siteLink') ? ('Enter ' + currentEventInfo.season + " " +  currentEventInfo.year.substring(0, 4) + " site" ) : 'Coming Soon'}</div>
+            <h1>The Original College Hackathon</h1>
+
+            <a href={currentEventInfo.siteLink || "#"}>
+              <div className="button">
+                {currentEventInfo.hasOwnProperty("siteLink")
+                  ? "Enter " +
+                    currentEventInfo.season +
+                    " " +
+                    currentEventInfo.year.substring(0, 4) +
+                    " site"
+                  : "Coming Soon"}
+              </div>
             </a>
           </div>
         </div>
@@ -84,7 +92,8 @@ class App extends Component {
             showAny={this.state.showOrganizers}
             showAll={this.state.mobile}
             event={this.state.currentlyViewedEvent}
-            events={events} />
+            events={events}
+          />
           <History
             noScroll={this.state.mobile} // set to true for mobile
             eventViewCallback={this.changeCurrentlyViewedEvent.bind(this)}
@@ -94,7 +103,10 @@ class App extends Component {
           />
         </div>
         <div className="footer">
-          PennApps is organized by students with the help of <a href="http://www.seas.upenn.edu/">Penn Engineering</a>. This website is open sourced on <a href="https://github.com/pennapps/pennapps.com">Github</a>.
+          PennApps is organized by students with the help of{" "}
+          <a href="http://www.seas.upenn.edu/">Penn Engineering</a>. This
+          website is open sourced on{" "}
+          <a href="https://github.com/pennapps/pennapps.com">Github</a>.
         </div>
       </div>
     );
