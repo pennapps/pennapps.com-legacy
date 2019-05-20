@@ -791,7 +791,8 @@
     "image": "/images/ethan_boyer.jpg",
     "events": {
       "2018f": "Sponsorship",
-      "2019w": "Sponsorship"
+      "2019w": "Sponsorship",
+      "2019f": "Sponsorship"
     }
   },
   {
@@ -807,7 +808,8 @@
     "image": "/images/derya_yavuz.jpg",
     "events": {
       "2018f": "Logistics",
-      "2019w": "Logistics"
+      "2019w": "Logistics",
+      "2019f": "Hacker XP"
     }
   },
   {
@@ -815,7 +817,8 @@
     "image": "/images/tiffany_tsang.JPG",
     "events": {
       "2018f": "Logistics",
-      "2019w": "Logistics"
+      "2019w": "Logistics",
+      "2019f": "Logistics"
     }
   },
   {
@@ -844,12 +847,14 @@
   },
   {
     "name": "Will Morgus",
-    "image": "/images/will_morgus.jpg",
+    "image": "/images/will.jpg",
     "linkedin": "https://www.linkedin.com/in/wmorgus/",
     "website" : "https://willmorg.us",
     "github" : "https://github.com/wmorgus/",
     "events": {
-      "2018f": "Dev"
+      "2018f": "Dev",
+      "2019w": "Dev",
+      "2019f": "Dev"
     }
   },
   {
@@ -861,38 +866,107 @@
   },
   {
     "name": "Grace Chong",
-    "image": "/images/grace_chong.jpg",
+    "image": "/images/grace.jpg",
+    "linkedin": "https://www.linkedin.com/in/gracejchong/",
     "events": {
-      "2019w": "Logistics"
+      "2019w": "Logistics",
+      "2019f": "Logistics"
     }
   },
   {
     "name": "Willy Fan",
-    "image": "/images/willy_fan.jpg",
+    "image": "/images/willy.jpg",
     "events": {
-      "2019w": "Sponsorship"
+      "2019w": "Sponsorship",
+      "2019f": "Sponsorship"
     }
   },
   {
     "name": "Claudia Haddad",
-    "image": "/images/claudia_haddad.jpg",
+    "image": "/images/claudia.jpg",
+    "github": "http://github.com/claudiahaddad",
     "events": {
-      "2019w": "Sponsorship"
+      "2019w": "Sponsorship",
+      "2019f": "Vice-Director"
     }
   },
   {
     "name": "Diana Marsala",
-    "image": "/images/diana_marsala.jpg",
+    "image": "/images/diana.jpg",
     "events": {
       "2019w": "Outreach"
     }
   },
   {
     "name": "Jules Pierce",
-    "image": "/images/jules_pierce.jpg",
+    "image": "/images/jules.jpg",
+    "facebook": "https://www.facebook.com/jules.pierce.5",
+    "linkedin": "https://www.linkedin.com/in/jules-pierce-20b07b185/",
     "events": {
-      "2019w": "Outreach"
+      "2019w": "Outreach",
+      "2019f": "Director"
+    }
+  },{
+    "name": "Dana Yi",
+    "image": "/images/dana.jpg",
+    "events": {
+      "2019f": "Logistics"
+    }
+  },
+  {
+    "name": "Ally Zhang",
+    "image": "/images/ally.jpg",
+    "events": {
+      "2019f": "Outreach"
+    }
+  },
+  {
+    "name": "Nina Chung",
+    "image": "/images/nina.jpg",
+    "events": {
+      "2019f": "Outreach"
+    }
+  },
+  {
+    "name": "Yuxin Liao",
+    "image": "/images/yuxin.jpg",
+    "linkedin": "https://www.linkedin.com/in/yuxinliao/",
+    "github": "https://github.com/yuxinl329",
+    "events": {
+      "2019f": "Sponsorship"
+    }
+  },
+  {
+    "name": "Jason Chen",
+    "image": "/images/jason.jpg",
+    "events": {
+      "2019f": "Hacker XP"
+    }
+  },
+  {
+    "name": "Felix Cui",
+    "image": "/images/felix.jpg",
+    "linkedin": "http://linkedin.com/in/felixycui",
+    "events": {
+      "2019f": "Creative"
+    }
+  },
+  {
+    "name": "Susan Xie",
+    "image": "/images/susan.jpg",
+    "website": "https://suxie.github.io/",
+    "linkedin": "https://www.linkedin.com/in/susan-xie-dmd",
+    "events": {
+      "2019f": "Creative"
+    }
+  },
+  {
+    "name": "Liam Hosey",
+    "image": "/images/leem_hoebag.jpg",
+    "events": {
+      "2019f": "Dev"
     }
   }
+
   
 ]

@@ -1,8 +1,16 @@
 {
+
+  "2019f": {
+    "roman": "XX",
+    "link": "http://2019f.pennapps.com",
+    "full": "Fall 2019",
+    "short": "HBD PennAppps!",
+    "longHTML": "Stay tuned to see what PennApps has planned for this birthday bash!<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
+  },
   "2019w": {
     "roman": "XIX",
     "link": "http://2019w.pennapps.com",
-    "full": "Spring 2018",
+    "full": "Spring 2019",
     "short": "PennApps is experimenting...",
     "longHTML": "The PennApps team is planning something a little different for this winter's hackathon... Stay tuned for exciting updates!<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
   },
