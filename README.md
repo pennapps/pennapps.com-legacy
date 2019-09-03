@@ -1,4 +1,4 @@
-# pennapps-main
+# pennapps-main [![PennApps](https://hackathon.badge.pw/pennapps?template=for-the-badge)](https://pennapps.com/)
 
 Do not update the code in this repository unless you really know what you're doing. Please do update the data as time passes. Only submit a Pull Request, do not commit directly.
 
