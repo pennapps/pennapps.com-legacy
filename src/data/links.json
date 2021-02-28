@@ -1,4 +1,21 @@
 {
+  "2021f": [
+
+  ],
+  "2020f": [
+    {
+      "title": "PennApps replaces spring hackathon with smaller workshop",
+      "site": "The Daily Pennsylvanian",
+      "desciption": "The traditional Spring hackathon will now be a workshop and incubator.",
+      "url": "https://www.thedp.com/article/2020/01/penn-apps-engineering-canceling-hackathon-spring",
+      "image": {
+        "url": "https://snworksceo.imgix.net/dpn/042c8099-7145-4a46-9e8d-56698c93bd67.sized-1000x1000.jpg?w=1000",
+        "width": null,
+        "height": null,
+        "type": null
+      }
+    }
+  ],
   "2019f": [
     {
       "title": "University of Pennsylvania Instagram Post",
