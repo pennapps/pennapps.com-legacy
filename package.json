@@ -10,9 +10,9 @@
     "async": "^2.1.5",
     "jsonfile": "^2.4.0",
     "open-graph-scraper": "^3.6.1",
-    "prop-types": "^15.5.7",
+    "prop-types": "^15.7.2",
     "react": "^15.4.2",
-    "react-addons-pure-render-mixin": "^15.5.2",
+    "react-addons-pure-render-mixin": "^15.6.3",
     "react-dom": "^15.4.2",
     "react-scroll": "^1.4.8",
     "react-waypoint": "^6.0.0"

@@ -910,7 +910,8 @@
     "name": "Dana Yi",
     "image": "/images/dana.jpg",
     "events": {
-      "2019f": "Logistics"
+      "2019f": "Logistics",
+      "2020f": "Director"
     }
   },
   {
@@ -940,7 +941,8 @@
     "name": "Jason Chen",
     "image": "/images/jason.jpg",
     "events": {
-      "2019f": "Hacker XP"
+      "2019f": "Hacker XP",
+      "2020f": "Sponsorship"
     }
   },
   {
@@ -948,7 +950,8 @@
     "image": "/images/felix.jpg",
     "linkedin": "http://linkedin.com/in/felixycui",
     "events": {
-      "2019f": "Creative"
+      "2019f": "Creative",
+      "2020f": "Creative"
     }
   },
   {
@@ -957,7 +960,8 @@
     "website": "https://suxie.github.io/",
     "linkedin": "https://www.linkedin.com/in/susan-xie-dmd",
     "events": {
-      "2019f": "Creative"
+      "2019f": "Creative",
+      "2020f": "Creative"
     }
   },
   {
@@ -966,7 +970,185 @@
     "events": {
       "2019f": "Dev"
     }
+  },
+  {
+    "name": "Mary Passarella",
+    "image": "/default_person.png",
+    "events": {
+      "2020f": "Vice Director"
+    }
+  },
+  {
+    "name": "Shannon Zhang",
+    "image": "/images/shannon_zhang.jpg",
+    "facebook": "https://www.facebook.com/profile.php?id=100004575765033",
+    "linkedin": "https://www.linkedin.com/in/shazha/",
+    "events": {
+      "2020f": "Logistics",
+      "2021f": "Director"
+    }
+  },
+  {
+    "name": "Olivia Morrisey",
+    "image": "/images/olivia_morrisey.jpg",
+    "events": {
+      "2020f": "Logistics",
+      "2021f": "Logistics"
+    }
+  },
+  {
+    "name": "Alex Scott",
+    "image": "/default_person.png",
+    "events": {
+      "2020f": "Outreach"
+    }
+  },
+  {
+    "name": "Wendy Wu",
+    "facebook": "https://www.facebook.com/wendywu830",
+    "linkedin": "https://www.linkedin.com/in/~wendywu/",
+    "website": "https://wendywu830.github.io/me/",
+    "github": "https://github.com/wendywu830",
+    "image": "/default_person.png",
+    "events": {
+      "2020f": "Outreach",
+      "20201f": "Vice Director"
+    }
+  },
+  {
+    "name": "Jasmine Jiang",
+    "image": "/default_person.png",
+    "events": {
+      "2020f": "Sponsorship",
+      "2021f": "Sponsorship"
+    }
+  },
+  {
+    "name": "Melina Muthuswamy",
+    "image": "/images/melina_muthuswamy.jpg",
+    "facebook": "https://www.facebook.com/melina.muthuswamy.9/",
+    "linkedin": "https://www.linkedin.com/in/melina-muthuswamy/",
+    "events": {
+      "2020f": "HackerXP",
+      "2021f": "HackerXP"
+    }
+  },
+  {
+    "name": "Sai Mamidala",
+    "image": "/images/sai_mamidala.jpg",
+    "facebook": "https://www.facebook.com/sai.mamidala.319/",
+    "linkedin": "https://www.linkedin.com/in/sai-mamidala/",
+    "events": {
+      "2020f": "HackerXP",
+      "2021f": "HackerXP"
+    }
+  },
+  {
+    "name": "Jerry Ye",
+    "image": "/default_person.png",
+    "events": {
+      "2020f": "Dev"
+    }
+  },
+  {
+    "name": "Jeffrey Liu",
+    "image": "/default_person.png",
+    "events": {
+      "2020f": "Dev"
+    }
+  },
+  {
+    "name": "Riya Narayan",
+    "image": "/default_person.png",
+    "events": {
+      "2020f": "Operations",
+      "2021f": "Operations"
+    }
+  },
+  {
+    "name": "Maya Patel",
+    "image": "/default_person.png",
+    "facebook": "https://www.facebook.com/mayapatel.2000",
+    "linkedin": "https://www.linkedin.com/in/mayahpatel/",
+    "events": {
+      "2020f": "Operations",
+      "2021f": "Operations"
+    }
+  },
+  {
+    "name": "Jason Li",
+    "facebook": "https://www.facebook.com/profile.php?id=100012368478429",
+    "linkedin": "https://www.linkedin.com/in/jeylii/",
+    "github": "https://github.com/jailea",
+    "image": "/images/jason_li.jpg",
+    "events": {
+      "2021f": "Logistics"
+    }
+  },
+  {
+    "name": "Anna Xia",
+    "image": "/images/anna_xia.jpg",
+    "facebook": "https://www.facebook.com/profile.php?id=100012248507717",
+    "linkedin": "https://www.linkedin.com/in/anna-xia24/",
+    "github": "https://github.com/annaanx24",
+    "events": {
+      "2021f": "Outreach"
+    }
+  },
+  {
+    "name": "Jason Hom",
+    "image": "/images/jason_hom.jpg",
+    "facebook": "https://www.facebook.com/jason.hom.505/",
+    "events": {
+      "2021f": "Outreach"
+    }
+  },
+  {
+    "name": "Frank Lapinski",
+    "facebook": "https://www.facebook.com/profile.php?id=100013427710053",
+    "linkedin": "https://www.linkedin.com/in/frank-lapinski/",
+    "website": "https://anchor.fm/frank-l8",
+    "github": "https://github.com/frankl547",
+    "image": "/images/frank_lapinski.png",
+    "events": {
+      "2021f": "Sponsorship"
+    }
+  },
+  {
+    "name": "Linda Ting",
+    "facebook": "https://www.facebook.com/lindastting/",
+    "linkedin": "https://www.linkedin.com/in/lindating/",
+    "website": "http://linda-ting.github.io/",
+    "github": "https://github.com/linda-ting",
+    "image": "/images/linda_ting.jpg",
+    "events": {
+      "2021f": "Creative"
+    }
+  },
+  {
+    "name": "Mia Kim",
+    "facebook": "https://www.facebook.com/miayaekim/",
+    "website": "miayaekim.com",
+    "image": "/images/mia_kim.jpg",
+    "events": {
+      "2021f": "Creative"
+    }
+  },
+  {
+    "name": "Audrey Yang",
+    "linkedin": "https://www.linkedin.com/in/audreyryang",
+    "website": "https://audrey-yang.github.io/",
+    "github": "https://www.github.com/audrey-yang",
+    "image": "/images/audrey.JPG",
+    "events": {
+      "2021f": "Dev"
+    }
+  },
+  {
+    "name": "Tahmid Ahamed",
+    "image": "/default_person.png",
+    "events": {
+      "2021f": "Dev"
+    }
   }
-
-  
 ]
