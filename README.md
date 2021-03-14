@@ -2,11 +2,11 @@
 
 Do not update the code in this repository unless you really know what you're doing. Please do update the data as time passes. Only submit a Pull Request, do not commit directly.
 
-To update information, submit a Pull Request to one of the files in teh `/data` folder. You may update the following files:
+To update information, submit a Pull Request to one of the files in the `/data` folder. You may update the following files:
 
 - `currentEvent.json`: This will update the text relating to the current event on the splash page. Set the `siteLink` to `#` if you set the text on the button to "Coming Soon" and you don't want the link to go anywhere in particular.
 - `events.json`: When adding an event to the history and timeline, you *MUST* update this. Please specify all fields. `longHTML` will render as HTML so you can include inline links using `<a>` tags.
-- `linksList.json`: When adding an event to the history and timeline, you *MUST* update this. Please include all links to Press articles in this as an array. The key must be of the form `[year][s|f]`. After updating this file, run `npm run scrape` to scrape content from teh links you just added and add them to `links.json`.
+- `linksList.json`: When adding an event to the history and timeline, you *MUST* update this. Please include all links to Press articles in this as an array. The key must be of the form `[year][s|f]`. After updating this file, run `npm run scrape` to scrape content from the links you just added and add them to `links.json`.
 - `links.json`: The results of running the scraper are added to this file. When adding an event to the history and timeline, you *MUST* at least check this file, and will likely have to add some data for any linked sites that do not provide good information when scraped. For any of these, please manually visit those sites and add the `title`, `site`, `description`, and `image | url` fields to this file within the already created objects.
 - `organizers.json`: When adding an event to the history and timeline, you *MUST* update this. Please follow the data format listed and add the new oragnizers *at the end of this file*. Please include *at least* the following fields: `name`, `image` (remember to also add the actual image to `public/images`), `events`. Remember to look for an existing object for a user before creating a new one. the `events` object expects keys to be of the exact same form as listed in `linksList.json`, ie, `[year][s|f]`, and the value to be the title (usually "Board", "Vice-Director" or "Director").
 

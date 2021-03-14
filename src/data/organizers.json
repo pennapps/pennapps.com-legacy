@@ -950,8 +950,7 @@
     "image": "/images/felix.jpg",
     "linkedin": "http://linkedin.com/in/felixycui",
     "events": {
-      "2019f": "Creative",
-      "2020f": "Creative"
+      "2019f": "Creative"
     }
   },
   {
@@ -960,8 +959,7 @@
     "website": "https://suxie.github.io/",
     "linkedin": "https://www.linkedin.com/in/susan-xie-dmd",
     "events": {
-      "2019f": "Creative",
-      "2020f": "Creative"
+      "2019f": "Creative"
     }
   },
   {
@@ -985,7 +983,7 @@
     "linkedin": "https://www.linkedin.com/in/shazha/",
     "events": {
       "2020f": "Logistics",
-      "2021f": "Director"
+      "2021s": "Director"
     }
   },
   {
@@ -993,7 +991,7 @@
     "image": "/images/olivia_morrisey.jpg",
     "events": {
       "2020f": "Logistics",
-      "2021f": "Logistics"
+      "2021s": "Logistics"
     }
   },
   {
@@ -1009,10 +1007,10 @@
     "linkedin": "https://www.linkedin.com/in/~wendywu/",
     "website": "https://wendywu830.github.io/me/",
     "github": "https://github.com/wendywu830",
-    "image": "/default_person.png",
+    "image": "/images/wendy.JPG",
     "events": {
       "2020f": "Outreach",
-      "2021f": "Vice Director"
+      "2021s": "Vice Director"
     }
   },
   {
@@ -1020,7 +1018,7 @@
     "image": "/default_person.png",
     "events": {
       "2020f": "Sponsorship",
-      "2021f": "Sponsorship"
+      "2021s": "Sponsorship"
     }
   },
   {
@@ -1030,7 +1028,7 @@
     "linkedin": "https://www.linkedin.com/in/melina-muthuswamy/",
     "events": {
       "2020f": "HackerXP",
-      "2021f": "HackerXP"
+      "2021s": "HackerXP"
     }
   },
   {
@@ -1040,7 +1038,7 @@
     "linkedin": "https://www.linkedin.com/in/sai-mamidala/",
     "events": {
       "2020f": "HackerXP",
-      "2021f": "HackerXP"
+      "2021s": "HackerXP"
     }
   },
   {
@@ -1062,7 +1060,7 @@
     "image": "/default_person.png",
     "events": {
       "2020f": "Operations",
-      "2021f": "Operations"
+      "2021s": "Operations"
     }
   },
   {
@@ -1072,7 +1070,7 @@
     "linkedin": "https://www.linkedin.com/in/mayahpatel/",
     "events": {
       "2020f": "Operations",
-      "2021f": "Operations"
+      "2021s": "Operations"
     }
   },
   {
@@ -1082,7 +1080,7 @@
     "github": "https://github.com/jailea",
     "image": "/images/jason_li.jpg",
     "events": {
-      "2021f": "Logistics"
+      "2021s": "Logistics"
     }
   },
   {
@@ -1092,7 +1090,7 @@
     "linkedin": "https://www.linkedin.com/in/anna-xia24/",
     "github": "https://github.com/annaanx24",
     "events": {
-      "2021f": "Outreach"
+      "2021s": "Outreach"
     }
   },
   {
@@ -1100,7 +1098,7 @@
     "image": "/images/jason_hom.jpg",
     "facebook": "https://www.facebook.com/jason.hom.505/",
     "events": {
-      "2021f": "Outreach"
+      "2021s": "Outreach"
     }
   },
   {
@@ -1111,7 +1109,7 @@
     "github": "https://github.com/frankl547",
     "image": "/images/frank_lapinski.png",
     "events": {
-      "2021f": "Sponsorship"
+      "2021s": "Sponsorship"
     }
   },
   {
@@ -1122,7 +1120,8 @@
     "github": "https://github.com/linda-ting",
     "image": "/images/linda_ting.jpg",
     "events": {
-      "2021f": "Creative"
+      "2020f": "Creative",
+      "2021s": "Creative"
     }
   },
   {
@@ -1131,7 +1130,8 @@
     "website": "miayaekim.com",
     "image": "/images/mia_kim.jpg",
     "events": {
-      "2021f": "Creative"
+      "2020f": "Creative",
+      "2021s": "Creative"
     }
   },
   {
@@ -1139,16 +1139,16 @@
     "linkedin": "https://www.linkedin.com/in/audreyryang",
     "website": "https://audrey-yang.github.io/",
     "github": "https://www.github.com/audrey-yang",
-    "image": "/images/audrey.JPG",
+    "image": "/images/audrey.jpg",
     "events": {
-      "2021f": "Dev"
+      "2021s": "Dev"
     }
   },
   {
     "name": "Tahmid Ahamed",
     "image": "/default_person.png",
     "events": {
-      "2021f": "Dev"
+      "2021s": "Dev"
     }
   }
 ]
