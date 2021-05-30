@@ -950,7 +950,8 @@
     "image": "/images/felix.jpg",
     "linkedin": "http://linkedin.com/in/felixycui",
     "events": {
-      "2019f": "Creative"
+      "2019f": "Creative",
+      "2020f": "Creative"
     }
   },
   {
@@ -959,7 +960,8 @@
     "website": "https://suxie.github.io/",
     "linkedin": "https://www.linkedin.com/in/susan-xie-dmd",
     "events": {
-      "2019f": "Creative"
+      "2019f": "Creative",
+      "2020f": "Creative"
     }
   },
   {
@@ -1120,7 +1122,6 @@
     "github": "https://github.com/linda-ting",
     "image": "/images/linda_ting.jpg",
     "events": {
-      "2020f": "Creative",
       "2021s": "Creative"
     }
   },
@@ -1130,7 +1131,6 @@
     "website": "miayaekim.com",
     "image": "/images/mia_kim.jpg",
     "events": {
-      "2020f": "Creative",
       "2021s": "Creative"
     }
   },
