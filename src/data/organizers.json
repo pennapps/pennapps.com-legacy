@@ -985,7 +985,7 @@
     "linkedin": "https://www.linkedin.com/in/shazha/",
     "events": {
       "2020f": "Logistics",
-      "2021s": "Director"
+      "2021f": "Director"
     }
   },
   {
@@ -993,7 +993,7 @@
     "image": "/images/olivia_morrisey.jpg",
     "events": {
       "2020f": "Logistics",
-      "2021s": "Logistics"
+      "2021f": "Logistics"
     }
   },
   {
@@ -1012,7 +1012,7 @@
     "image": "/images/wendy.JPG",
     "events": {
       "2020f": "Outreach",
-      "2021s": "Vice Director"
+      "2021f": "Vice Director"
     }
   },
   {
@@ -1020,7 +1020,7 @@
     "image": "/default_person.png",
     "events": {
       "2020f": "Sponsorship",
-      "2021s": "Sponsorship"
+      "2021f": "Sponsorship"
     }
   },
   {
@@ -1030,7 +1030,7 @@
     "linkedin": "https://www.linkedin.com/in/melina-muthuswamy/",
     "events": {
       "2020f": "HackerXP",
-      "2021s": "HackerXP"
+      "2021f": "HackerXP"
     }
   },
   {
@@ -1040,7 +1040,7 @@
     "linkedin": "https://www.linkedin.com/in/sai-mamidala/",
     "events": {
       "2020f": "HackerXP",
-      "2021s": "HackerXP"
+      "2021f": "HackerXP"
     }
   },
   {
@@ -1062,7 +1062,7 @@
     "image": "/default_person.png",
     "events": {
       "2020f": "Operations",
-      "2021s": "Operations"
+      "2021f": "Operations"
     }
   },
   {
@@ -1072,7 +1072,7 @@
     "linkedin": "https://www.linkedin.com/in/mayahpatel/",
     "events": {
       "2020f": "Operations",
-      "2021s": "Operations"
+      "2021f": "Operations"
     }
   },
   {
@@ -1082,7 +1082,7 @@
     "github": "https://github.com/jailea",
     "image": "/images/jason_li.jpg",
     "events": {
-      "2021s": "Logistics"
+      "2021f": "Logistics"
     }
   },
   {
@@ -1092,7 +1092,7 @@
     "linkedin": "https://www.linkedin.com/in/anna-xia24/",
     "github": "https://github.com/annaanx24",
     "events": {
-      "2021s": "Outreach"
+      "2021f": "Outreach"
     }
   },
   {
@@ -1100,7 +1100,7 @@
     "image": "/images/jason_hom.JPG",
     "facebook": "https://www.facebook.com/jason.hom.505/",
     "events": {
-      "2021s": "Outreach"
+      "2021f": "Outreach"
     }
   },
   {
@@ -1111,7 +1111,7 @@
     "github": "https://github.com/frankl547",
     "image": "/images/frank_lapinski.png",
     "events": {
-      "2021s": "Sponsorship"
+      "2021f": "Sponsorship"
     }
   },
   {
@@ -1122,7 +1122,7 @@
     "github": "https://github.com/linda-ting",
     "image": "/images/linda_ting.jpg",
     "events": {
-      "2021s": "Creative"
+      "2021f": "Creative"
     }
   },
   {
@@ -1131,7 +1131,7 @@
     "website": "miayaekim.com",
     "image": "/images/mia_kim.jpg",
     "events": {
-      "2021s": "Creative"
+      "2021f": "Creative"
     }
   },
   {
@@ -1141,14 +1141,14 @@
     "github": "https://www.github.com/audrey-yang",
     "image": "/images/audrey.JPG",
     "events": {
-      "2021s": "Dev"
+      "2021f": "Dev"
     }
   },
   {
     "name": "Tahmid Ahamed",
     "image": "/default_person.png",
     "events": {
-      "2021s": "Dev"
+      "2021f": "Dev"
     }
   }
 ]
