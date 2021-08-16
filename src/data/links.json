@@ -1,12 +1,24 @@
 {
   "2021f": [
     {
-      "title": "PennApps XXII: Cloud",
+      "title": "Get the latest from our Facebook page",
       "site": "Facebook",
-      "desciption": "Applications for PennApps XXII hackathon are OPEN for ALL prospective hackers.",
-      "url": "https://www.facebook.com/pennapps/photos/a.115146361876339/4234696046587996",
+      "desciption": "Get the latest from our Facebook page",
+      "url": "https://www.facebook.com/pennapps",
       "image": {
-        "url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/214239413_4234696053254662_1018782314751764889_n.png?_nc_cat=109&ccb=1-3&_nc_sid=730e14&_nc_ohc=29wxOP6LavoAX8pp84s&_nc_ht=scontent-lga3-1.xx&oh=867b0f2a6d547e703e9e82fa64040ee8&oe=60EF176C",
+        "url": "https://2021f.pennapps.com/static/media/pennappsxxii_cover.2b3ac06c.png",
+        "width": null,
+        "height": null,
+        "type": null
+      }
+    },
+    {
+      "title": "Keep updated by following our Twitter",
+      "site": "Twitter",
+      "desciption": "Keep updated by following our Twitter",
+      "url": "https://twitter.com/pennapps",
+      "image": {
+        "url": "https://pbs.twimg.com/media/E83Dg3BXMAQTSiL?format=jpg&name=medium",
         "width": null,
         "height": null,
         "type": null
