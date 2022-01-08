@@ -1,10 +1,17 @@
 {
+  "2022s": {
+    "roman": "HealthHacks",
+    "link": "/",
+    "full": "Spring 2022",
+    "short": "PennApps x WUHC",
+    "longHTML": "PennApps x Wharton Undergraduate Healthcare Club present: a high school healthcare hackathon!"
+  },
   "2021f": {
     "roman": "XXII",
     "link": "https://2021f.pennapps.com/",
     "full": "Fall 2021",
     "short": "Get ready for liftoff!",
-    "longHTML": "PennApps is ready to lift off into the clouds!"
+    "longHTML": "PennApps XXII took participants soaring high up in the clouds during this hybrid hackathon!"
   },
   "2020f": {
     "roman": "XXI",

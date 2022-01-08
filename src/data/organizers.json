@@ -1032,11 +1032,12 @@
   },
   {
     "name": "Sai Mamidala",
-    "image": "/images/sai_mamidala.jpeg",
+    "image": "/images/sai_mamidala.png",
     "linkedin": "https://www.linkedin.com/in/sai-mamidala/",
     "events": {
       "2020f": "HackerXP",
-      "2021f": "HackerXP"
+      "2021f": "HackerXP",
+      "2022s": "Director"
     }
   },
   {
@@ -1076,7 +1077,8 @@
     "github": "https://github.com/jailea",
     "image": "/images/jason_li.jpg",
     "events": {
-      "2021f": "Logistics"
+      "2021f": "Logistics",
+      "2022s": "Logistics"
     }
   },
   {
@@ -1085,14 +1087,16 @@
     "linkedin": "https://www.linkedin.com/in/anna-xia24/",
     "github": "https://github.com/annaanx24",
     "events": {
-      "2021f": "Outreach"
+      "2021f": "Outreach",
+      "2022s": "Outreach"
     }
   },
   {
     "name": "Jason Hom",
     "image": "/images/jason_hom.JPG",
     "events": {
-      "2021f": "Outreach"
+      "2021f": "Outreach",
+      "2022s": "Vice Director"
     }
   },
   {
@@ -1117,34 +1121,38 @@
   },
   {
     "name": "Mia Kim",
-    "website": "miayaekim.com",
+    "website": "https://miayaekim.com",
     "image": "/images/mia_kim.jpg",
     "events": {
-      "2021f": "Creative"
+      "2021f": "Creative",
+      "2022s": "Creative"
     }
   },
   {
     "name": "Audrey Yang",
     "linkedin": "https://www.linkedin.com/in/audreyryang",
-    "website": "https://audrey-yang.github.io/",
+    "website": "https://audrey-yang.github.io",
     "github": "https://www.github.com/audrey-yang",
-    "image": "/images/audrey.JPG",
+    "image": "/images/audrey.png",
     "events": {
-      "2021f": "Dev"
+      "2021f": "Dev",
+      "2022s": "Dev"
     }
   },
   {
     "name": "Tahmid Ahamed",
     "image": "/default_person.png",
     "events": {
-      "2021f": "Dev"
+      "2021f": "Dev",
+      "2022s": "Dev"
     }
   },
   {
     "name": "Zach Huang-Ogata",
     "image": "/default_person.png",
     "events": {
-      "2021f": "Sponsorship"
+      "2021f": "Sponsorship",
+      "2022s": "Sponsorship"
     }
   },
   {
@@ -1152,6 +1160,37 @@
     "image": "/default_person.png",
     "events": {
       "2021f": "Logistics"
+    }
+  },
+  {
+    "name": "Qijia Joy Liu",
+    "image": "images/joy_liu.jpeg",
+    "linkedin": "https://www.linkedin.com/in/qijia-joy-liu",
+    "github": "https://github.com/joyliu-q",
+    "events": {
+      "2022s": "Logistics"
+    }
+  },
+  {
+    "name": "Sylvia Zhao",
+    "image": "images/sylvia_zhao.png",
+    "website": "https://zhaosylvia.myportfolio.com",
+    "events": {
+      "2022s": "Creative"
+    }
+  },
+  {
+    "name": "Anna Monaco",
+    "image": "/default_person.png",
+    "events": {
+      "2022s": "HackerXP"
+    }
+  },
+  {
+    "name": "Heyi Liu",
+    "image": "/default_person.png",
+    "events": {
+      "2022s": "Outreach"
     }
   }
 ]

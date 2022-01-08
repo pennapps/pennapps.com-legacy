@@ -33,6 +33,7 @@ class TimelineEvent extends Component {
             <div className="event-wrapper">
               <span className="event">PENNAPPS</span>
               <span className="eventnum"> {this.props.num}</span>
+              <br />
               <span className="description">{this.props.description}</span>
             </div>
           </Link>

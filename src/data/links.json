@@ -1,5 +1,5 @@
 {
-  "2021f": [
+  "2022s": [
     {
       "title": "Get the latest from our Facebook page",
       "site": "Facebook",
@@ -18,7 +18,21 @@
       "desciption": "Keep updated by following our Twitter",
       "url": "https://twitter.com/pennapps",
       "image": {
-        "url": "https://pbs.twimg.com/media/E83Dg3BXMAQTSiL?format=jpg&name=medium",
+        "url": "https://pbs.twimg.com/media/E-7g8DpXEAQzWGV?format=jpg&name=medium",
+        "width": null,
+        "height": null,
+        "type": null
+      }
+    }
+  ],
+  "2021f": [
+    {
+      "title": "Devpost Submissions - PennApps XXII",
+      "site": "Devpost",
+      "desciption": "Come soar to greater heights with PennApps!",
+      "url": "https://pennapps-xxii.devpost.com/",
+      "image": {
+        "url": "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/001/640/517/datas/full_width.png",
         "width": null,
         "height": null,
         "type": null
