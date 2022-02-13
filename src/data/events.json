@@ -1,7 +1,7 @@
 {
   "2022s": {
     "roman": "HealthHacks",
-    "link": "/",
+    "link": "#",
     "full": "Spring 2022",
     "short": "PennApps x WUHC",
     "longHTML": "PennApps x Wharton Undergraduate Healthcare Club present: a high school healthcare hackathon!"
@@ -12,6 +12,13 @@
     "full": "Fall 2021",
     "short": "Get ready for liftoff!",
     "longHTML": "PennApps XXII took participants soaring high up in the clouds during this hybrid hackathon!"
+  },
+  "2021s": {
+    "roman": "PennShops",
+    "link": "https://www.notion.so/PennApps-presents-PennShops-95bd0483e2b54009aa993fed44a4b659",
+    "full": "Spring 2021",
+    "short": "Spring into a day of learning at PennShops!",
+    "longHTML": "PennShops participants sprung into a day of learning at our second virtual workshop series"
   },
   "2020f": {
     "roman": "XXI",

@@ -6,7 +6,7 @@
       "desciption": "Get the latest from our Facebook page",
       "url": "https://www.facebook.com/pennapps",
       "image": {
-        "url": "https://2021f.pennapps.com/static/media/pennappsxxii_cover.2b3ac06c.png",
+        "url": "https://github.com/pennapps/public-assets/raw/main/22s_logo.png",
         "width": null,
         "height": null,
         "type": null
@@ -18,7 +18,7 @@
       "desciption": "Keep updated by following our Twitter",
       "url": "https://twitter.com/pennapps",
       "image": {
-        "url": "https://pbs.twimg.com/media/E-7g8DpXEAQzWGV?format=jpg&name=medium",
+        "url": "https://github.com/pennapps/public-assets/raw/main/platy_whitebg.png",
         "width": null,
         "height": null,
         "type": null
@@ -27,12 +27,38 @@
   ],
   "2021f": [
     {
+      "title": "PennApps XXII Schedule",
+      "site": "Notion",
+      "desciption": "Come soar to greater heights with PennApps!",
+      "url": "https://wild-router-277.notion.site/PennApps-XXII-c2d841ea69374a4481f2da54e8f2ae95",
+      "image": {
+        "url": "https://pbs.twimg.com/media/E-7g8DpXEAQzWGV?format=jpg&name=medium",
+        "width": null,
+        "height": null,
+        "type": null
+      }
+    },
+    {
       "title": "Devpost Submissions - PennApps XXII",
       "site": "Devpost",
-      "desciption": "Come soar to greater heights with PennApps!",
+      "desciption": "See how high PennApps XXII participants soared!",
       "url": "https://pennapps-xxii.devpost.com/",
       "image": {
         "url": "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/001/640/517/datas/full_width.png",
+        "width": null,
+        "height": null,
+        "type": null
+      }
+    }
+  ],
+  "2021s": [
+    {
+      "title": "PennApps Presents: PennShops",
+      "site": "Facebook",
+      "desciption": "PennShops is a day of introductory computer science and tech entrepreneurship workshops aimed at high school and college students interested in exploring the current breadth of engineering culture and capabilities of engineering.",
+      "url": "https://www.facebook.com/events/265027238528282/",
+      "image": {
+        "url": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F72b9ee09-2ad9-4e1e-b648-531da2f9f08e%2Ffacebook_banner-01.png?table=block&id=95bd0483-e2b5-4009-aa99-3fed44a4b659&spaceId=e9d0a52a-52a0-4bb6-9b49-0969193653ed&width=2000&userId=&cache=v2",
         "width": null,
         "height": null,
         "type": null

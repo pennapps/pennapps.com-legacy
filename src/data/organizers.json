@@ -984,6 +984,7 @@
     "linkedin": "https://www.linkedin.com/in/shazha/",
     "events": {
       "2020f": "Logistics",
+      "2021s": "Director",
       "2021f": "Director"
     }
   },
@@ -992,7 +993,7 @@
     "image": "/images/olivia_morrisey.jpg",
     "events": {
       "2020f": "Logistics",
-      "2021f": "Logistics"
+      "2021s": "Logistics"
     }
   },
   {
@@ -1010,6 +1011,7 @@
     "image": "/images/wendy.JPG",
     "events": {
       "2020f": "Outreach",
+      "2021s": "Vice Director",
       "2021f": "Vice Director"
     }
   },
@@ -1018,6 +1020,7 @@
     "image": "/default_person.png",
     "events": {
       "2020f": "Sponsorship",
+      "2021s": "Sponsorship",
       "2021f": "Sponsorship"
     }
   },
@@ -1027,6 +1030,7 @@
     "linkedin": "https://www.linkedin.com/in/melina-muthuswamy/",
     "events": {
       "2020f": "HackerXP",
+      "2021s": "HackerXP",
       "2021f": "HackerXP"
     }
   },
@@ -1036,6 +1040,7 @@
     "linkedin": "https://www.linkedin.com/in/sai-mamidala/",
     "events": {
       "2020f": "HackerXP",
+      "2021s": "HackerXP",
       "2021f": "HackerXP",
       "2022s": "Director"
     }
@@ -1059,6 +1064,7 @@
     "image": "/default_person.png",
     "events": {
       "2020f": "Operations",
+      "2021s": "Operations",
       "2021f": "Operations"
     }
   },
@@ -1068,6 +1074,7 @@
     "linkedin": "https://www.linkedin.com/in/mayahpatel/",
     "events": {
       "2020f": "Operations",
+      "2021s": "Operations",
       "2021f": "Operations"
     }
   },
@@ -1077,6 +1084,7 @@
     "github": "https://github.com/jailea",
     "image": "/images/jason_li.jpg",
     "events": {
+      "2021s": "Logistics",
       "2021f": "Logistics",
       "2022s": "Logistics"
     }
@@ -1087,6 +1095,7 @@
     "linkedin": "https://www.linkedin.com/in/anna-xia24/",
     "github": "https://github.com/annaanx24",
     "events": {
+      "2021s": "Outreach",
       "2021f": "Outreach",
       "2022s": "Outreach"
     }
@@ -1095,6 +1104,7 @@
     "name": "Jason Hom",
     "image": "/images/jason_hom.JPG",
     "events": {
+      "2021s": "Outreach",
       "2021f": "Outreach",
       "2022s": "Vice Director"
     }
@@ -1106,7 +1116,7 @@
     "github": "https://github.com/frankl547",
     "image": "/images/frank_lapinski.png",
     "events": {
-      "2021f": "Sponsorship"
+      "2021s": "Sponsorship"
     }
   },
   {
@@ -1116,6 +1126,7 @@
     "github": "https://github.com/linda-ting",
     "image": "/images/linda_ting.jpg",
     "events": {
+      "2021s": "Creative",
       "2021f": "Creative"
     }
   },
@@ -1124,6 +1135,7 @@
     "website": "https://miayaekim.com",
     "image": "/images/mia_kim.jpg",
     "events": {
+      "2021s": "Creative",
       "2021f": "Creative",
       "2022s": "Creative"
     }
@@ -1135,6 +1147,7 @@
     "github": "https://www.github.com/audrey-yang",
     "image": "/images/audrey.png",
     "events": {
+      "2021s": "Dev",
       "2021f": "Dev",
       "2022s": "Dev"
     }
@@ -1143,13 +1156,15 @@
     "name": "Tahmid Ahamed",
     "image": "/default_person.png",
     "events": {
+      "2021s": "Dev",
       "2021f": "Dev",
       "2022s": "Dev"
     }
   },
   {
     "name": "Zach Huang-Ogata",
-    "image": "/default_person.png",
+    "linkedin": "https://www.linkedin.com/in/zacharyhuangogata/",
+    "image": "/images/zach_huang-ogata.jpg",
     "events": {
       "2021f": "Sponsorship",
       "2022s": "Sponsorship"
