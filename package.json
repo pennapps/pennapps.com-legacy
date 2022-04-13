@@ -7,7 +7,7 @@
     "react-scripts": "^3.0.0"
   },
   "dependencies": {
-    "async": "^2.1.5",
+    "async": "^3.2.2",
     "jsonfile": "^2.4.0",
     "open-graph-scraper": "^3.6.1",
     "prop-types": "^15.7.2",
